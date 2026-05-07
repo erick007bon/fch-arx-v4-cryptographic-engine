@@ -1,0 +1,61 @@
+﻿======================================================================
+  AN├üLISIS DE FRECUENCIA GEM├üTRICA ÔÇö G├ëNESIS COMPLETO
+  FCH-ARX V3 | Erick Flores Zambrano | Torah Applied Sciences 2026
+======================================================================
+
+  Total letras analizadas : 78,364
+  Total energ├¡a gem├ítrica : 5,128,061
+  Energ├¡a promedio/letra  : 65.44
+  Vers├¡culos procesados   : 1,533
+
+  #    Letra    Nombre       Valor    Frec.      %        Rol en Entrop├¡a
+  ----------------------------------------------------------------------
+  1    ÎÖ        Yod          10       9,067      11.57    ­ƒö┤ SUPER-HUB (>10%)
+  2    Îò        Vav          6        8,470      10.81    ­ƒö┤ SUPER-HUB (>10%)
+  3    ÎÉ        Aleph        1        7,644      9.75     ­ƒƒá Hub Mayor (7-10%)
+  4    Îö        He           5        6,289      8.03     ­ƒƒá Hub Mayor (7-10%)
+  5    Î£        Lamed        30       5,276      6.73     ­ƒƒí Hub Menor (5-7%)
+  6    Î¿        Resh         200      4,808      6.14     ­ƒƒí Hub Menor (5-7%)
+  7    Îæ        Bet          2        4,349      5.55     ­ƒƒí Hub Menor (5-7%)
+  8    Î¬        Tav          400      4,165      5.31     ­ƒƒí Hub Menor (5-7%)
+  9    Î®        Shin         300      3,583      4.57     ­ƒƒó Nodo Activo
+  10   Î×        Mem          40       3,428      4.37     ­ƒƒó Nodo Activo
+  11   Îó        Ayin         70       2,829      3.61     ­ƒƒó Nodo Activo
+  12   Îá        Nun          50       2,781      3.55     ­ƒƒó Nodo Activo
+  13   ÎØ        Mem-f        40       2,693      3.44     ­ƒƒó Nodo Activo
+  14   Îø        Kaf          20       1,912      2.44     ÔÜ¬ Nodo D├®bil
+  15   Îô        Dalet        4        1,854      2.37     ÔÜ¬ Nodo D├®bil
+  16   Îù        Chet         8        1,849      2.36     ÔÜ¬ Nodo D├®bil
+  17   Îº        Kuf          100      1,301      1.66     ÔÜ¬ Nodo D├®bil
+  18   Îƒ        Nun-f        50       1,013      1.29     ÔÜ¬ Nodo D├®bil
+  19   Îñ        Pe           80       950        1.21     ÔÜ¬ Nodo D├®bil
+  20   ÎÜ        Kaf-f        20       866        1.11     ÔÜ¬ Nodo D├®bil
+  21   Îª        Tsadi        90       744        0.95     ÔÜ¬ Nodo D├®bil
+  22   ÎÆ        Gimel        3        580        0.74     ÔÜ¬ Nodo D├®bil
+  23   Îí        Samech       60       507        0.65     ÔÜ¬ Nodo D├®bil
+  24   Îû        Zayin        7        431        0.55     ÔÜ¬ Nodo D├®bil
+  25   ÎÑ        Tsadi-f      90       351        0.45     ÔÜ¬ Nodo D├®bil
+  26   Îú        Pe-f         80       313        0.40     ÔÜ¬ Nodo D├®bil
+  27   Îÿ        Tet          9        311        0.40     ÔÜ¬ Nodo D├®bil
+
+  ­ƒîÇ AN├üLISIS DE V├ôRTICES TESLA (letras cuyo valor es m├║ltiplo de 3, 6 o 9)
+  --------------------------------------------------
+  Letras v├│rtice (val%3==0): 19,822 (25.29% del texto)
+
+  ÔÜí TOP 5 LETRAS POR ENERG├ìA TOTAL (Frecuencia ├ù Valor Gem├ítrico):
+     Î¬ (Tav) = 1,666,000 unidades de energ├¡a
+     Î® (Shin) = 1,074,900 unidades de energ├¡a
+     Î¿ (Resh) = 961,600 unidades de energ├¡a
+     Îó (Ayin) = 198,030 unidades de energ├¡a
+     Î£ (Lamed) = 158,280 unidades de energ├¡a
+
+  ­ƒöÑ CAP├ìTULO DE MAYOR ENERG├ìA: G├®nesis 41 ÔåÆ 228,697 unidades
+
+  ­ƒôÉ ENTROP├ìA DE SHANNON del G├®nesis: 4.2215 bits
+     (M├íximo te├│rico para 22 letras: 4.4594 bits)
+     Eficiencia de uso de la entrop├¡a: 94.66%
+
+  ­ƒôè Gr├ífico guardado en: C:\Users\Erick Zambrano\Desktop\linkedin\PROYECTOS\08_gematria_torah\visualizations\genesis_entropy_map.png
+
+  Ô£à An├ílisis C completado. El G├®nesis revela sus nodos de poder.
+

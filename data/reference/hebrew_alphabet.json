@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "description": "Tabla completa del Alef-Bet hebreo con valores de gematría en múltiples sistemas",
+    "source": "Sefer Yetzirah, tradición rabínica estándar",
+    "author": "Erick Flores Zambrano",
+    "created": "2026-04-08"
+  },
+  "letters": [
+    {"letter": "א", "name_hebrew": "אלף", "name_latin": "Alef", "position": 1, "standard": 1, "ordinal": 1, "reduced": 1, "sofit": false, "type": "mother", "element": "air", "milui_value": 111},
+    {"letter": "ב", "name_hebrew": "בית", "name_latin": "Bet", "position": 2, "standard": 2, "ordinal": 2, "reduced": 2, "sofit": false, "type": "double", "planet_gra": "Moon", "planet_alt": "Saturn", "milui_value": 412},
+    {"letter": "ג", "name_hebrew": "גימל", "name_latin": "Gimel", "position": 3, "standard": 3, "ordinal": 3, "reduced": 3, "sofit": false, "type": "double", "planet_gra": "Mars", "milui_value": 83},
+    {"letter": "ד", "name_hebrew": "דלת", "name_latin": "Dalet", "position": 4, "standard": 4, "ordinal": 4, "reduced": 4, "sofit": false, "type": "double", "planet_gra": "Sun", "milui_value": 434},
+    {"letter": "ה", "name_hebrew": "הא", "name_latin": "He", "position": 5, "standard": 5, "ordinal": 5, "reduced": 5, "sofit": false, "type": "simple", "milui_value": 6},
+    {"letter": "ו", "name_hebrew": "ואו", "name_latin": "Vav", "position": 6, "standard": 6, "ordinal": 6, "reduced": 6, "sofit": false, "type": "simple", "milui_value": 13},
+    {"letter": "ז", "name_hebrew": "זין", "name_latin": "Zayin", "position": 7, "standard": 7, "ordinal": 7, "reduced": 7, "sofit": false, "type": "simple", "milui_value": 67},
+    {"letter": "ח", "name_hebrew": "חית", "name_latin": "Chet", "position": 8, "standard": 8, "ordinal": 8, "reduced": 8, "sofit": false, "type": "simple", "milui_value": 418},
+    {"letter": "ט", "name_hebrew": "טית", "name_latin": "Tet", "position": 9, "standard": 9, "ordinal": 9, "reduced": 9, "sofit": false, "type": "simple", "milui_value": 419},
+    {"letter": "י", "name_hebrew": "יוד", "name_latin": "Yod", "position": 10, "standard": 10, "ordinal": 10, "reduced": 1, "sofit": false, "type": "simple", "milui_value": 20},
+    {"letter": "כ", "name_hebrew": "כף", "name_latin": "Kaf", "position": 11, "standard": 20, "ordinal": 11, "reduced": 2, "sofit": false, "type": "double", "planet_gra": "Venus", "milui_value": 100},
+    {"letter": "ך", "name_hebrew": "כף סופית", "name_latin": "Kaf Sofit", "position": 11, "standard": 20, "ordinal": 11, "reduced": 2, "sofit": true, "gadol": 500},
+    {"letter": "ל", "name_hebrew": "למד", "name_latin": "Lamed", "position": 12, "standard": 30, "ordinal": 12, "reduced": 3, "sofit": false, "type": "simple", "milui_value": 74},
+    {"letter": "מ", "name_hebrew": "מם", "name_latin": "Mem", "position": 13, "standard": 40, "ordinal": 13, "reduced": 4, "sofit": false, "type": "mother", "element": "water", "milui_value": 80},
+    {"letter": "ם", "name_hebrew": "מם סופית", "name_latin": "Mem Sofit", "position": 13, "standard": 40, "ordinal": 13, "reduced": 4, "sofit": true, "gadol": 600},
+    {"letter": "נ", "name_hebrew": "נון", "name_latin": "Nun", "position": 14, "standard": 50, "ordinal": 14, "reduced": 5, "sofit": false, "type": "simple", "milui_value": 106},
+    {"letter": "ן", "name_hebrew": "נון סופית", "name_latin": "Nun Sofit", "position": 14, "standard": 50, "ordinal": 14, "reduced": 5, "sofit": true, "gadol": 700},
+    {"letter": "ס", "name_hebrew": "סמך", "name_latin": "Samekh", "position": 15, "standard": 60, "ordinal": 15, "reduced": 6, "sofit": false, "type": "simple", "milui_value": 120},
+    {"letter": "ע", "name_hebrew": "עין", "name_latin": "Ayin", "position": 16, "standard": 70, "ordinal": 16, "reduced": 7, "sofit": false, "type": "simple", "milui_value": 130},
+    {"letter": "פ", "name_hebrew": "פא", "name_latin": "Pe", "position": 17, "standard": 80, "ordinal": 17, "reduced": 8, "sofit": false, "type": "double", "planet_gra": "Mercury", "milui_value": 81},
+    {"letter": "ף", "name_hebrew": "פא סופית", "name_latin": "Pe Sofit", "position": 17, "standard": 80, "ordinal": 17, "reduced": 8, "sofit": true, "gadol": 800},
+    {"letter": "צ", "name_hebrew": "צדי", "name_latin": "Tsadi", "position": 18, "standard": 90, "ordinal": 18, "reduced": 9, "sofit": false, "type": "simple", "milui_value": 104},
+    {"letter": "ץ", "name_hebrew": "צדי סופית", "name_latin": "Tsadi Sofit", "position": 18, "standard": 90, "ordinal": 18, "reduced": 9, "sofit": true, "gadol": 900},
+    {"letter": "ק", "name_hebrew": "קוף", "name_latin": "Qof", "position": 19, "standard": 100, "ordinal": 19, "reduced": 1, "sofit": false, "type": "simple", "milui_value": 186},
+    {"letter": "ר", "name_hebrew": "ריש", "name_latin": "Resh", "position": 20, "standard": 200, "ordinal": 20, "reduced": 2, "sofit": false, "type": "double", "planet_gra": "Saturn", "milui_value": 510},
+    {"letter": "ש", "name_hebrew": "שין", "name_latin": "Shin", "position": 21, "standard": 300, "ordinal": 21, "reduced": 3, "sofit": false, "type": "mother", "element": "fire", "milui_value": 360},
+    {"letter": "ת", "name_hebrew": "תו", "name_latin": "Tav", "position": 22, "standard": 400, "ordinal": 22, "reduced": 4, "sofit": false, "type": "double", "planet_gra": "Jupiter", "milui_value": 406}
+  ],
+  "atbash_pairs": {
+    "א": "ת", "ב": "ש", "ג": "ר", "ד": "ק", "ה": "צ",
+    "ו": "פ", "ז": "ע", "ח": "ס", "ט": "נ", "י": "מ",
+    "כ": "ל", "ל": "כ", "מ": "י", "נ": "ט", "ס": "ח",
+    "ע": "ז", "פ": "ו", "צ": "ה", "ק": "ד", "ר": "ג",
+    "ש": "ב", "ת": "א"
+  },
+  "letter_types": {
+    "mothers": ["א", "מ", "ש"],
+    "doubles": ["ב", "ג", "ד", "כ", "פ", "ר", "ת"],
+    "simples": ["ה", "ו", "ז", "ח", "ט", "י", "ל", "נ", "ס", "ע", "צ", "ק"]
+  },
+  "planetary_associations_sefer_yetzirah": {
+    "note": "Según versión Gra del Sefer Yetzirah (la más aceptada)",
+    "ב_Bet": "Luna (לבנה)",
+    "ג_Gimel": "Marte (מאדים)",
+    "ד_Dalet": "Sol (חמה)",
+    "כ_Kaf": "Venus (נוגה)",
+    "פ_Pe": "Mercurio (כוכב)",
+    "ר_Resh": "Saturno (שבתאי)",
+    "ת_Tav": "Júpiter (צדק)"
+  },
+  "kamea_saturn": {
+    "description": "Cuadrado Mágico de Saturno 3×3 (Kamea de Shabbtai)",
+    "numeric": [[4, 9, 2], [3, 5, 7], [8, 1, 6]],
+    "hebrew": [["ד", "ט", "ב"], ["ג", "ה", "ז"], ["ח", "א", "ו"]],
+    "magic_constant": 15,
+    "total_sum": 45,
+    "magic_constant_hebrew": "יה (Yah - Nombre de Dios)"
+  }
+}

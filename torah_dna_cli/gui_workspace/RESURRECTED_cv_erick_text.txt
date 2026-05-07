@@ -1,0 +1,105 @@
+--- Página 1 ---
+FLORES ZAMBRANO ERICK
+Economista & Científico de Datos | Especialista en IA Aplicada y Análisis Financiero
+Machala, Ecuador | +593 0963951193 | e r ic k f l o r e s 6 6 5 5 @ g m a i l. c o m
+LinkedIn: e r ic k - f l o r e s - z a m b r a n o - 6 9 0 7 5 b 1 9 8 | G itHub : erick6 655
+PERFIL PROFESIONAL
+Economista y Científico de Datos con doble formación académica (Economía + Ciencia de Datos e IA), especializado en la
+intersección entre análisis financiero, machine learning y automatización inteligente. Experiencia demostrada desarrollando
+soluciones de IA end-to-end: desde modelos predictivos en Python (scikit-learn, PyTorch, TensorFlow) hasta arquitecturas
+de agentes conversacionales con LLMs, integraciones via API y protocolos MCP (Model Context Protocol) para sistemas
+multi-agente.Competencias clave en econometría aplicada (series temporales ARIMA/GARCH, modelos de panel, causal
+inference), MLOps (Docker, FastAPI, MLflow), y BI empresarial (Power BI, SQL avanzado).
+s
+Busco posiciones como Analista Financiero Cuantitativo, Científico de Datos, Ingeniero de Machine Learning o roles
+híbridos Economía-IA donde pueda aplicar econometría, deep learning y sistemas agénticos para optimizar decisiones
+estratégicas, modelado de riesgos y eficiencia operativa en sectores financieros, bancarios, corporativos y empresariales.
+COMPETENCIAS TÉCNICAS
+INTELIGENCIA ARTIFICIAL & ML ECONOMETRÍA & FINANZAS, BUSINESS INTELLIGENCE
+• LLMs & Generative AI (Hugging Face, prompt • Series Temporales , Power BI (DAX, dashboard,Power Query)
+engineering) • Panel Data & Causal Inference
+• Agentes Conversacionales & MCP • Análisis de Riesgo (VaR, backtesting)
+• Deep Learning (PyTorch, TensorFlow, CNNs, • Excel Avanzado (macros VBA, modelos financieros)
+RNNs/LSTMs) • Data Storytelling & reportería automatizada
+• ML Clásico (scikit-learn, ensemble methods) SQL (queries optimizadas, window functions)
+• Modelado predictivo con redes neuronales y análisis de
+patrones complejos
+• Desarrollo de proyectos de Machine Learning aplicados a
+datos financieros y de ventas VENTAS & GESTIÓN ADMINISTRATIVA
+• Atención y seguimiento a clientes para mantener relaciones
+MLOps & INGENIERÍA DE DATOS comerciales estables
+• Deployment (Docker, FastAPI, REST APIs) • Cumplimiento de metas de venta y control de indicadores de
+• Experiment Tracking (MLflow, versionado) desempeño
+• Orquestación (Airflow/Prefect conceptos) • Manejo de facturación, pedidos, inventarios y coordinación con áreas
+• APIs & Web Scraping (requests, BeautifulSoup) operativas
+• MCP Implementation (arquitecturas distribuidas) • Elaboración de reportes y análisis de ventas para la toma de decisiones
+EXPERIENCIA PROFESIONAL
+Vamoret S.A. (Grupo Palmón) Ecuador, Machala
+Asesor Comercial Noviembre 2022 - Actualidad
+• Dirigo un equipo de 3 personas en el desarrollo y la mejora en atencion al cliente.
+• Administración y control de inventario mensual con herramientas avanzadas, optimizando el flujo de
+productos y reduciendo pérdidas.
+• Aplicación de estrategias de ventas y negociación para maximizar ingresos y fidelización de clientes.
+• Elaboración de informes de ventas, tendencias de compra y desempeño del negocio mediante Excel
+Avanzado, Power BI y PowerPoint.
+• Manejo de programas de inventarios, sistemas de cobro y herramientas de análisis estadístico
+corporativo para la optimización del negocio.
+Hularuss S.A. (PepsiCo) Ecuador, Machala
+Asesor Co mercial Octubre 2018 – Marzo 2021
+• Gestioné y asesoré una cartera de clientes, asegurando un servicio personalizado y eficiente.
+• Implementé estrategias de ventas y técnicas de Programación Neurolingüística (PNL) para mejorar la conversión de ventas.
+• Administrar y optimizar la rotación de productos mediante un control de efectivo de inventario y merchandising en puntos de
+venta.
+• Desarrollé relaciones comerciales estratégicas con clientes clave, aumentando la fidelización y recompra.
+• Elaboraré informes de ventas y tendencias de consumo utilizando Excel Avanzado y Power BI para la toma de decisiones.
+• Capacité a nuevos asesores en técnicas de negociación, logrando mejorar el rendimiento del equipo de ventas.
+Mahueldis S.A. Ecuador, Machala
+Asistente Administrativo Julio 2017 – Mayo 2018
+• Gestioné la contabilidad del negocio, asegurando el control de ingresos, egresos y flujo de caja.
+• Administré el inventario de productos veterinarios, optimizando costos y evitando pérdidas.
+• Coordiné la agenda de citas y brindé atención personalizada a los clientes, mejorando la experiencia de servicio.
+• Diseñé estrategias de captación de nuevos clientes y fidelización, aumentando la rentabilidad del negocio.
+• Elaboré reportes financieros y operativos en Excel, facilitando la toma de decisiones estratégicas.
+• Manejé herramientas administrativas y sistemas de facturación, mejorando la eficiencia operativa.
+
+--- Página 2 ---
+LOGROS
+• Sistema Multi-Agente con MCP (Model Context Protocol)
+Arquitectura de agentes especializados para análisis financiero automatizado: Agente scraping de datos financieros
+via APIs (trading view, Alpha Vantage), agente análisis econométrico con modelos GARCH para volatilidad, agente
+generación de reportes con LLM (GPT-4 API). Stack: Python, FastAPI, Docker, protocolo MCP para comunicación
+inter-agente
+• Trading Algorítmico con Deep Learning
+Sistema de predicción de precios y señales de trading: backtesting de estrategias de momentum y mean reversion
+en datos históricos S&P 500, modelo LSTM (PyTorch) para forecasting de precios con 68% accuracy en
+direccionalidad. Pipeline completo: ingesta datos → features engineering → entrenamiento → backtesting.
+Tecnologías: Python, PyTorch, Backtrader, pandas-ta, MLflow
+• API RESTful para Modelos Predictivos
+Servicio web para inferencia de modelos de ML en producción: endpoint FastAPI con modelo de clasificación de
+riesgo crediticio (Random Forest), containerización con Docker, documentación automática con Swagger, testing con
+pytest, CI/CD básico con GitHub Actions. Producción: Heroku (demo deployment)
+• Dashboard Ejecutivo Power BI - Análisis de Ventas 360°
+Panel interactivo para seguimiento de KPIs comerciales en tiempo real: conexión directa a SQL Server,
+automatización de refresh diario, segmentación RFM, análisis de cohortes, forecasting con modelos DAX.
+Implementado en Vamoret S.A. con impacto medible en toma de decisiones.
+EDUCACIÓN
+Ingeniería en Ciencia de Datos e Inteligencia Artificial
+Universidad de Guayaquil | 2023 – Presente (4.º semestre) | Modalidad: Virtual sincrónica – Nocturno
+Economía
+Universidad Técnica de Manabí | 2021 – Presente (7.º semestre) | Modalidad: Virtual asincrónica
+Doble carrera simultánea: gestión excepcional del tiempo, resiliencia y aprendizaje autónomo
+CERTIFICACIONES PROFESIONALES
+• Inteligencia Artificial & Machine Learning
+• Python para Finanzas y Trading Algorítmico – Udemy (40 horas)
+• SQL para Big Data – IBM (40 horas)
+• Deep Learning Specialization – Coursera (en curso)
+• LLMs & Prompt Engineering – DeepLearning.AI (en curso)
+• Business Intelligence & Análisis de Datos
+• Power BI para Análisis de Datos – Universidad de Guayaquil (SQL + Python + Power BI)
+• Marketing Digital y Analítica Web – Google Actívate (50 horas)
+• Productividad Personal – Google Actívate (40 horas)
+• Economía & Negocios
+• VI Simposio de Ciencias Administrativas y Económicas – UTM (40 horas)
+IDIOMAS
+Español: Nativo Inglés: Básico (A2)
+©AZURIUS – Modelos-de-curriculum.com

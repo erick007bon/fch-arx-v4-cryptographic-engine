@@ -1,0 +1,4 @@
+﻿Tipo chapters: <class 'dict'>
+Primera clave: 1
+Tipo valor: <class 'dict'>
+Claves valor: ['verses_with_nikkud', 'verses_consonantal', 'num_verses']

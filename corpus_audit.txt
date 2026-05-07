@@ -1,0 +1,13 @@
+﻿Letras en verses_consonantal : 78,364
+Letras en verses_with_nikkud : 78,364
+Chars totales en consonantal : 98,570
+Chars NO-hebreos en cons     : 20,206
+Ejemplos chars extranios     : ['h', '(', ']', 'i', 's', 'p', '}', '═Å', ';', '[', 't', 'b', '*', '&', ')', 'n', '{']
+Num capitulos                : 50
+
+Letras normales : 73,128
+Letras sofit    : 5,236
+TOTAL verificado: 78,364
+
+Referencia masor├®tica Bereshit: ~78,064 letras
+Diferencia con nuestro conteo : 300 letras

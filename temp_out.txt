@@ -1,0 +1,6 @@
+﻿METADATA: {'key': 'bereshit', 'name_hebrew': 'ÎæÎ¿ÎÉÎ®ÎÖÎ¬', 'name_english': 'Genesis', 'name_spanish': 'G├®nesis', 'total_chapters': 50, 'source': 'Sefaria API', 'downloaded_at': '2026-04-08 23:23:57', 'encoding': 'UTF-8'}
+
+STATS: {'total_verses': 1533, 'total_words_with_nikkud': 0, 'total_words_consonantal': 17669}
+
+Total capitulos: 50
+Claves cap1: ['verses_with_nikkud', 'verses_consonantal', 'num_verses']

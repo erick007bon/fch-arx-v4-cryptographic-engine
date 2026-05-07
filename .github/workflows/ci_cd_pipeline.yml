@@ -1,0 +1,35 @@
+name: FCH-ARX V4 CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Test FCH-ARX V4 Python Core
+      run: |
+        echo "Running Python SAC Tests..."
+        cd "ENSAYOS CIENTIFICOS"
+        python fch_arx_v42_test.py
+
+    - name: Compile FCH-ARX V4 C Engine
+      run: |
+        echo "Compiling C Implementation with GCC..."
+        cd "ENSAYOS CIENTIFICOS"
+        gcc -O3 -march=native -funroll-loops -Wall -Wextra fch_arx_v4_fast.c -o fch_benchmark
+        echo "Compilation successful. Running benchmark..."
+        ./fch_benchmark

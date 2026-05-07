@@ -1,0 +1,16 @@
+﻿=================================================================
+  AUDITORIA COMPLETA: LAS 5 SEFARIM (Torah Completa)
+  Referencia Masoretica oficial: 304,805 letras exactas
+=================================================================
+  Bereshit (Genesis)               78,364 letras  |  1,533 versiculos
+  Shemot (Exodo)                   63,857 letras  |  1,210 versiculos
+  Vayikra (Levitico)               44,980 letras  |    859 versiculos
+  Bamidbar (Numeros)               63,846 letras  |  1,288 versiculos
+  Devarim (Deuteronomio)           55,222 letras  |    956 versiculos
+-----------------------------------------------------------------
+  TOTAL TORAH (5 libros)          306,269 letras  |  5,846 versiculos
+  Referencia Masoretica           304,805 letras
+  Diferencia                        1,464 letras (0.48%)
+=================================================================
+
+  VEREDICTO: REVISAR - Diferencia mayor a 1,000 letras

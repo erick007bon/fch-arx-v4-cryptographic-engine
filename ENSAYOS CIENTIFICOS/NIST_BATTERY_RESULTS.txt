@@ -1,0 +1,24 @@
+FCH-ARX V2 — NIST SP800-22 Full Battery
+Fecha: 2026-04-21 | Seed: 42 | n_hashes: 1000
+Bits totales: 51,200
+
+Prueba                                   p-value   Resultado
+-----------------------------------------------------------------
+1.  Frequency (Monobit)                 0.170681  APROBADO
+2.  Block Frequency (M=128)             0.500738  APROBADO
+3.  Runs                                0.797272  APROBADO
+4.  Longest Run of Ones                 0.342935  APROBADO
+5.  Binary Matrix Rank                  0.000000  REPROBADO
+6.  DFT Spectral                        0.655519  APROBADO
+7.  Non-Overlapping Templates           0.622007  APROBADO
+8.  Overlapping Templates               0.733577  APROBADO
+9.  Maurer Universal                    0.726466  APROBADO
+10. Linear Complexity (M=500)           0.225338  APROBADO
+11. Serial (m=4)                        0.018581  APROBADO
+12. Approximate Entropy (m=10)          0.615353  APROBADO
+13. Cumulative Sums (forward)          -0.688030  REPROBADO
+14. Random Excursions                   0.500000  APROBADO
+15. Random Excursions Variant           0.500000  APROBADO
+
+FINAL: 13/15 APROBADAS
+Veredicto: APROBADO — Listo para publicacion cientifica

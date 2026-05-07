@@ -1,0 +1,188 @@
+{
+  "personal_info": {
+    "nombre": "Erick Zambrano",
+    "titulo": "Estudiante de Economía & Data Science | Análisis Cuantitativo | Machine Learning",
+    "email": "tu.email@example.com",
+    "telefono": "+593 XX XXX XXXX",
+    "linkedin": "linkedin.com/in/tu-perfil",
+    "github": "github.com/tu-usuario",
+    "ubicacion": "Ecuador",
+    "sitio_web": ""
+  },
+  
+  "resumen_profesional": "Estudiante de doble titulación en Economía (7mo semestre) e Ingeniería en Ciencia de Datos e Inteligencia Artificial (5to semestre) con pasión por el análisis de datos y la toma de decisiones basada en evidencia. Experiencia en proyectos de machine learning aplicados a problemas económicos reales. Buscando oportunidades para aplicar conocimientos en análisis cuantitativo y ciencia de datos en entornos profesionales desafiantes.",
+  
+  "educacion": [
+    {
+      "titulo": "Ingeniería en Ciencia de Datos e Inteligencia Artificial",
+      "institucion": "Universidad [Nombre]",
+      "fecha_inicio": "2022",
+      "fecha_fin": "Presente (5to Semestre)",
+      "detalles": [
+        "Promedio: [Tu promedio]/10",
+        "Cursos relevantes: Machine Learning, Deep Learning, Big Data, Estadística Avanzada, Algoritmos de IA",
+        "Proyectos destacados: [Menciona 1-2 proyectos importantes]"
+      ]
+    },
+    {
+      "titulo": "Licenciatura en Economía",
+      "institucion": "Universidad [Nombre]",
+      "fecha_inicio": "2020",
+      "fecha_fin": "Presente (7mo Semestre)",
+      "detalles": [
+        "Promedio: [Tu promedio]/10",
+        "Cursos relevantes: Econometría, Microeconomía Avanzada, Macroeconomía, Finanzas Corporativas",
+        "Enfoque: Análisis cuantitativo y modelado económico"
+      ]
+    }
+  ],
+  
+  "experiencia": [
+    {
+      "puesto": "[Título del Puesto]",
+      "empresa": "[Nombre de la Empresa/Organización]",
+      "fecha_inicio": "[Mes Año]",
+      "fecha_fin": "[Mes Año] o Presente",
+      "logros": [
+        "Logro 1 con métrica específica (ej: 'Incrementé la eficiencia del proceso en 25%')",
+        "Logro 2 describiendo impacto (ej: 'Desarrollé dashboard que redujo tiempo de análisis en 40%')",
+        "Tecnologías/herramientas utilizadas",
+        "Resultado concreto del trabajo"
+      ]
+    },
+    {
+      "puesto": "Asistente de Investigación",
+      "empresa": "Universidad [Nombre] - Departamento de Economía",
+      "fecha_inicio": "Enero 2024",
+      "fecha_fin": "Presente",
+      "logros": [
+        "Apoyo en investigación sobre [tema específico]",
+        "Análisis de datos usando Python y R",
+        "Preparación de visualizaciones y reportes",
+        "Colaboración en paper académico (si aplica)"
+      ]
+    }
+  ],
+  
+  "proyectos": [
+    {
+      "nombre": "Modelo Predictivo de Precios de Banano",
+      "descripcion": "Desarrollo de modelo de machine learning para predecir precios de exportación de banano ecuatoriano usando variables macroeconómicas, climáticas y de mercado. Alcanzó R² de 0.85 y MAPE de 8.3%.",
+      "tecnologias": ["Python", "Pandas", "Scikit-learn", "XGBoost", "Matplotlib", "Seaborn"],
+      "url": "github.com/tu-usuario/proyecto-banano",
+      "fecha": "2024"
+    },
+    {
+      "nombre": "[Proyecto 2]",
+      "descripcion": "Descripción concisa del proyecto, problema que resuelve y resultados obtenidos.",
+      "tecnologias": ["Tecnología 1", "Tecnología 2", "Tecnología 3"],
+      "url": "github.com/tu-usuario/proyecto-2",
+      "fecha": "2024"
+    },
+    {
+      "nombre": "[Proyecto 3]",
+      "descripcion": "Descripción del proyecto.",
+      "tecnologias": ["Tecnología 1", "Tecnología 2"],
+      "url": "",
+      "fecha": "2023"
+    }
+  ],
+  
+  "habilidades": {
+    "tecnicas": [
+      "Python",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Deep Learning",
+      "Data Analysis",
+      "Statistical Modeling",
+      "Econometrics",
+      "Time Series Analysis",
+      "Predictive Modeling",
+      "Data Mining"
+    ],
+    "herramientas": [
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "Tableau",
+      "Power BI",
+      "Excel Avanzado",
+      "Git/GitHub",
+      "Jupyter Notebooks",
+      "VS Code"
+    ],
+    "idiomas": [
+      "Español (Nativo)",
+      "Inglés (Avanzado - B2/C1)"
+    ],
+    "soft_skills": [
+      "Pensamiento Analítico",
+      "Resolución de Problemas",
+      "Trabajo en Equipo",
+      "Comunicación Efectiva",
+      "Aprendizaje Continuo",
+      "Gestión del Tiempo",
+      "Atención al Detalle"
+    ]
+  },
+  
+  "certificaciones": [
+    {
+      "nombre": "[Nombre de la Certificación]",
+      "emisor": "[Plataforma/Institución]",
+      "fecha": "[Mes Año]",
+      "credencial": "[ID o URL de verificación]"
+    }
+  ],
+  
+  "premios": [
+    {
+      "nombre": "[Nombre del Premio/Reconocimiento]",
+      "emisor": "[Institución]",
+      "fecha": "[Año]",
+      "descripcion": "Breve descripción del logro"
+    }
+  ],
+  
+  "publicaciones": [
+    {
+      "titulo": "[Título del Paper/Artículo]",
+      "publicacion": "[Nombre de la Revista/Conferencia]",
+      "fecha": "[Año]",
+      "url": "[URL si está disponible]"
+    }
+  ],
+  
+  "voluntariado": [
+    {
+      "organizacion": "[Nombre de la Organización]",
+      "rol": "[Tu Rol]",
+      "fecha_inicio": "[Mes Año]",
+      "fecha_fin": "[Mes Año] o Presente",
+      "descripcion": "Descripción de tus actividades y contribuciones"
+    }
+  ],
+  
+  "_instrucciones": {
+    "nota": "Este es un template para tu CV. Reemplaza todos los valores entre corchetes [] con tu información real.",
+    "tips": [
+      "Sé específico con fechas y métricas",
+      "Usa verbos de acción en pasado para experiencias anteriores",
+      "Cuantifica logros siempre que sea posible",
+      "Mantén la información actualizada",
+      "Prioriza experiencias más recientes y relevantes",
+      "Adapta el CV según la posición a la que apliques"
+    ],
+    "como_usar": [
+      "1. Completa toda tu información en este archivo JSON",
+      "2. Guarda el archivo como cv_data.json",
+      "3. Ejecuta: python tools/cv_generator.py -i cv/cv_data.json -o cv/cv_ats_optimized.docx",
+      "4. Revisa y ajusta el documento generado según necesites"
+    ]
+  }
+}

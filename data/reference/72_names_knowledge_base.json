@@ -1,0 +1,3620 @@
+{
+  "title": "Los 72 Nombres de Dios — Base de Conocimiento Kabbalística",
+  "source": "Zohar, Éxodo 14:19-21",
+  "author": "Erick Reinaldo Flores Zambrano",
+  "generated": "2026-04-09 00:23",
+  "total_names": 72,
+  "total_gematria_sum": 9143,
+  "names": [
+    {
+      "number": 1,
+      "trigram": "והו",
+      "letters": [
+        "ו",
+        "ה",
+        "ו"
+      ],
+      "letter_values": [
+        6,
+        5,
+        6
+      ],
+      "gematria": {
+        "standard": 17,
+        "ordinal": 17,
+        "reduced": 17,
+        "digital_root": 8,
+        "atbash": 250
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 8
+      },
+      "angel": {
+        "name": "והואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 48
+      },
+      "kabbalah": {
+        "zodiac": "Aries",
+        "sefirah": "Keter/Jesed",
+        "purpose": "Divinidad, protección espiritual, viaje astral",
+        "meditation": "Para conectar con la fuente de toda energía",
+        "quality": "Voluntad divina",
+        "element": "Aire",
+        "planet": "Neptuno/Júpiter",
+        "psalm": "Salmo 3:3"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 2,
+      "trigram": "ילי",
+      "letters": [
+        "י",
+        "ל",
+        "י"
+      ],
+      "letter_values": [
+        10,
+        30,
+        10
+      ],
+      "gematria": {
+        "standard": 50,
+        "ordinal": 32,
+        "reduced": 5,
+        "digital_root": 5,
+        "atbash": 100
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 5
+      },
+      "angel": {
+        "name": "יליאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 81
+      },
+      "kabbalah": {
+        "zodiac": "Aries",
+        "sefirah": "Keter/Gevurah",
+        "purpose": "Iluminación espiritual, sabiduría mística",
+        "meditation": "Para recibir inspiración y visión profética",
+        "quality": "Iluminación",
+        "element": "Fuego",
+        "planet": "Sol",
+        "psalm": "Salmo 22:19"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 3,
+      "trigram": "סיט",
+      "letters": [
+        "ס",
+        "י",
+        "ט"
+      ],
+      "letter_values": [
+        60,
+        10,
+        9
+      ],
+      "gematria": {
+        "standard": 79,
+        "ordinal": 34,
+        "reduced": 16,
+        "digital_root": 7,
+        "atbash": 98
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "סיטאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 110
+      },
+      "kabbalah": {
+        "zodiac": "Aries",
+        "sefirah": "Keter/Tiferet",
+        "purpose": "Paciencia, superar los obstáculos",
+        "meditation": "Para la transformación del sufrimiento en sabiduría",
+        "quality": "Paciencia divina",
+        "element": "Agua",
+        "planet": "Saturno",
+        "psalm": "Salmo 91:2"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 4,
+      "trigram": "עלמ",
+      "letters": [
+        "ע",
+        "ל",
+        "מ"
+      ],
+      "letter_values": [
+        70,
+        30,
+        40
+      ],
+      "gematria": {
+        "standard": 140,
+        "ordinal": 41,
+        "reduced": 14,
+        "digital_root": 5,
+        "atbash": 37
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 5
+      },
+      "angel": {
+        "name": "עלמיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 155
+      },
+      "kabbalah": {
+        "zodiac": "Aries",
+        "sefirah": "Keter/Netzaj",
+        "purpose": "Neutralizar negatividad, protección",
+        "meditation": "Escudo contra energías destructivas",
+        "quality": "Protección",
+        "element": "Tierra",
+        "planet": "Júpiter",
+        "psalm": "Salmo 25:6"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 5,
+      "trigram": "מהש",
+      "letters": [
+        "מ",
+        "ה",
+        "ש"
+      ],
+      "letter_values": [
+        40,
+        5,
+        300
+      ],
+      "gematria": {
+        "standard": 345,
+        "ordinal": 39,
+        "reduced": 12,
+        "digital_root": 3,
+        "atbash": 102
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 3
+      },
+      "angel": {
+        "name": "מהשאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 376
+      },
+      "kabbalah": {
+        "zodiac": "Aries",
+        "sefirah": "Keter/Hod",
+        "purpose": "Curación, restauración de la salud",
+        "meditation": "Activar la energía sanadora del universo",
+        "quality": "Sanación",
+        "element": "Fuego",
+        "planet": "Marte",
+        "psalm": "Salmo 33:22"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 6,
+      "trigram": "ללה",
+      "letters": [
+        "ל",
+        "ל",
+        "ה"
+      ],
+      "letter_values": [
+        30,
+        30,
+        5
+      ],
+      "gematria": {
+        "standard": 65,
+        "ordinal": 29,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 130
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "ללהאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 96
+      },
+      "kabbalah": {
+        "zodiac": "Aries",
+        "sefirah": "Keter/Yesod",
+        "purpose": "Fertilidad, poder para crear",
+        "meditation": "Para manifestar proyectos y sueños",
+        "quality": "Creación",
+        "element": "Agua",
+        "planet": "Luna",
+        "psalm": "Salmo 9:11"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 7,
+      "trigram": "אכא",
+      "letters": [
+        "א",
+        "כ",
+        "א"
+      ],
+      "letter_values": [
+        1,
+        20,
+        1
+      ],
+      "gematria": {
+        "standard": 22,
+        "ordinal": 13,
+        "reduced": 4,
+        "digital_root": 4,
+        "atbash": 830
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "אכאאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 53
+      },
+      "kabbalah": {
+        "zodiac": "Tauro",
+        "sefirah": "Keter/Malkut",
+        "purpose": "Conciencia cósmica, conexión con lo alto",
+        "meditation": "Para expandir la percepción espiritual",
+        "quality": "Conciencia",
+        "element": "Aire",
+        "planet": "Mercurio",
+        "psalm": "Salmo 103:19"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 8,
+      "trigram": "כהת",
+      "letters": [
+        "כ",
+        "ה",
+        "ת"
+      ],
+      "letter_values": [
+        20,
+        5,
+        400
+      ],
+      "gematria": {
+        "standard": 425,
+        "ordinal": 38,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 121
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "כהתאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 456
+      },
+      "kabbalah": {
+        "zodiac": "Tauro",
+        "sefirah": "Jokhmah/Jesed",
+        "purpose": "Orden y estructura, deshacer el caos",
+        "meditation": "Para traer orden divino al desorden",
+        "quality": "Orden",
+        "element": "Tierra",
+        "planet": "Saturno",
+        "psalm": "Salmo 95:6"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 1,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 9,
+      "trigram": "הזי",
+      "letters": [
+        "ה",
+        "ז",
+        "י"
+      ],
+      "letter_values": [
+        5,
+        7,
+        10
+      ],
+      "gematria": {
+        "standard": 22,
+        "ordinal": 22,
+        "reduced": 13,
+        "digital_root": 4,
+        "atbash": 200
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "הזיאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 53
+      },
+      "kabbalah": {
+        "zodiac": "Tauro",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 10,
+      "trigram": "אלד",
+      "letters": [
+        "א",
+        "ל",
+        "ד"
+      ],
+      "letter_values": [
+        1,
+        30,
+        4
+      ],
+      "gematria": {
+        "standard": 35,
+        "ordinal": 17,
+        "reduced": 8,
+        "digital_root": 8,
+        "atbash": 520
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 8
+      },
+      "angel": {
+        "name": "אלדיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 50
+      },
+      "kabbalah": {
+        "zodiac": "Tauro",
+        "sefirah": "Gevurah",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 11,
+      "trigram": "לאו",
+      "letters": [
+        "ל",
+        "א",
+        "ו"
+      ],
+      "letter_values": [
+        30,
+        1,
+        6
+      ],
+      "gematria": {
+        "standard": 37,
+        "ordinal": 19,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 500
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "לאואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 68
+      },
+      "kabbalah": {
+        "zodiac": "Tauro",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 12,
+      "trigram": "ההע",
+      "letters": [
+        "ה",
+        "ה",
+        "ע"
+      ],
+      "letter_values": [
+        5,
+        5,
+        70
+      ],
+      "gematria": {
+        "standard": 80,
+        "ordinal": 26,
+        "reduced": 17,
+        "digital_root": 8,
+        "atbash": 187
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 8
+      },
+      "angel": {
+        "name": "ההעיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 95
+      },
+      "kabbalah": {
+        "zodiac": "Tauro",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 13,
+      "trigram": "יזל",
+      "letters": [
+        "י",
+        "ז",
+        "ל"
+      ],
+      "letter_values": [
+        10,
+        7,
+        30
+      ],
+      "gematria": {
+        "standard": 47,
+        "ordinal": 29,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 130
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "יזלאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 78
+      },
+      "kabbalah": {
+        "zodiac": "Géminis",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 14,
+      "trigram": "מבה",
+      "letters": [
+        "מ",
+        "ב",
+        "ה"
+      ],
+      "letter_values": [
+        40,
+        2,
+        5
+      ],
+      "gematria": {
+        "standard": 47,
+        "ordinal": 20,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 400
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "מבהיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 62
+      },
+      "kabbalah": {
+        "zodiac": "Géminis",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 15,
+      "trigram": "הרי",
+      "letters": [
+        "ה",
+        "ר",
+        "י"
+      ],
+      "letter_values": [
+        5,
+        200,
+        10
+      ],
+      "gematria": {
+        "standard": 215,
+        "ordinal": 35,
+        "reduced": 8,
+        "digital_root": 8,
+        "atbash": 133
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 8
+      },
+      "angel": {
+        "name": "הריאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 246
+      },
+      "kabbalah": {
+        "zodiac": "Géminis",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 16,
+      "trigram": "הקם",
+      "letters": [
+        "ה",
+        "ק",
+        "ם"
+      ],
+      "letter_values": [
+        5,
+        100,
+        40
+      ],
+      "gematria": {
+        "standard": 145,
+        "ordinal": 37,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 104
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "הקםיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 160
+      },
+      "kabbalah": {
+        "zodiac": "Géminis",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 2,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 17,
+      "trigram": "לאו",
+      "letters": [
+        "ל",
+        "א",
+        "ו"
+      ],
+      "letter_values": [
+        30,
+        1,
+        6
+      ],
+      "gematria": {
+        "standard": 37,
+        "ordinal": 19,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 500
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "לאואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 68
+      },
+      "kabbalah": {
+        "zodiac": "Géminis",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 18,
+      "trigram": "כלי",
+      "letters": [
+        "כ",
+        "ל",
+        "י"
+      ],
+      "letter_values": [
+        20,
+        30,
+        10
+      ],
+      "gematria": {
+        "standard": 60,
+        "ordinal": 33,
+        "reduced": 6,
+        "digital_root": 6,
+        "atbash": 90
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 4,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "כלייה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 75
+      },
+      "kabbalah": {
+        "zodiac": "Géminis",
+        "sefirah": "Gevurah",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 19,
+      "trigram": "לוו",
+      "letters": [
+        "ל",
+        "ו",
+        "ו"
+      ],
+      "letter_values": [
+        30,
+        6,
+        6
+      ],
+      "gematria": {
+        "standard": 42,
+        "ordinal": 24,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 180
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "לוואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 73
+      },
+      "kabbalah": {
+        "zodiac": "Cáncer",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 20,
+      "trigram": "פהל",
+      "letters": [
+        "פ",
+        "ה",
+        "ל"
+      ],
+      "letter_values": [
+        80,
+        5,
+        30
+      ],
+      "gematria": {
+        "standard": 115,
+        "ordinal": 34,
+        "reduced": 16,
+        "digital_root": 7,
+        "atbash": 116
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "פהליה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 130
+      },
+      "kabbalah": {
+        "zodiac": "Cáncer",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 21,
+      "trigram": "נלך",
+      "letters": [
+        "נ",
+        "ל",
+        "ך"
+      ],
+      "letter_values": [
+        50,
+        30,
+        20
+      ],
+      "gematria": {
+        "standard": 100,
+        "ordinal": 37,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 59
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "נלךאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 131
+      },
+      "kabbalah": {
+        "zodiac": "Cáncer",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 22,
+      "trigram": "ייי",
+      "letters": [
+        "י",
+        "י",
+        "י"
+      ],
+      "letter_values": [
+        10,
+        10,
+        10
+      ],
+      "gematria": {
+        "standard": 30,
+        "ordinal": 30,
+        "reduced": 3,
+        "digital_root": 3,
+        "atbash": 120
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 3
+      },
+      "angel": {
+        "name": "ייייה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 45
+      },
+      "kabbalah": {
+        "zodiac": "Cáncer",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 23,
+      "trigram": "מלה",
+      "letters": [
+        "מ",
+        "ל",
+        "ה"
+      ],
+      "letter_values": [
+        40,
+        30,
+        5
+      ],
+      "gematria": {
+        "standard": 75,
+        "ordinal": 30,
+        "reduced": 12,
+        "digital_root": 3,
+        "atbash": 120
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 3
+      },
+      "angel": {
+        "name": "מלהאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 106
+      },
+      "kabbalah": {
+        "zodiac": "Cáncer",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 24,
+      "trigram": "חהו",
+      "letters": [
+        "ח",
+        "ה",
+        "ו"
+      ],
+      "letter_values": [
+        8,
+        5,
+        6
+      ],
+      "gematria": {
+        "standard": 19,
+        "ordinal": 19,
+        "reduced": 19,
+        "digital_root": 1,
+        "atbash": 230
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "חהויה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 34
+      },
+      "kabbalah": {
+        "zodiac": "Cáncer",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 3,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 25,
+      "trigram": "נתה",
+      "letters": [
+        "נ",
+        "ת",
+        "ה"
+      ],
+      "letter_values": [
+        50,
+        400,
+        5
+      ],
+      "gematria": {
+        "standard": 455,
+        "ordinal": 41,
+        "reduced": 14,
+        "digital_root": 5,
+        "atbash": 100
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 5
+      },
+      "angel": {
+        "name": "נתהאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 486
+      },
+      "kabbalah": {
+        "zodiac": "Leo",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 26,
+      "trigram": "האא",
+      "letters": [
+        "ה",
+        "א",
+        "א"
+      ],
+      "letter_values": [
+        5,
+        1,
+        1
+      ],
+      "gematria": {
+        "standard": 7,
+        "ordinal": 7,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 890
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "האאאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 38
+      },
+      "kabbalah": {
+        "zodiac": "Leo",
+        "sefirah": "Tiferet/Hod",
+        "purpose": "Eliminar la negatividad absoluta, purificación total",
+        "meditation": "El nombre más puro — valor 7 = Shabbat/Saturno/Completitud",
+        "quality": "Purificación suprema",
+        "element": "Agua",
+        "planet": "SATURNO (valor = 7)",
+        "psalm": "Salmo 119:145"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 27,
+      "trigram": "ירת",
+      "letters": [
+        "י",
+        "ר",
+        "ת"
+      ],
+      "letter_values": [
+        10,
+        200,
+        400
+      ],
+      "gematria": {
+        "standard": 610,
+        "ordinal": 52,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 44
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "ירתאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 641
+      },
+      "kabbalah": {
+        "zodiac": "Leo",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 28,
+      "trigram": "שאה",
+      "letters": [
+        "ש",
+        "א",
+        "ה"
+      ],
+      "letter_values": [
+        300,
+        1,
+        5
+      ],
+      "gematria": {
+        "standard": 306,
+        "ordinal": 27,
+        "reduced": 9,
+        "digital_root": 9,
+        "atbash": 492
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 0
+      },
+      "angel": {
+        "name": "שאהיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 321
+      },
+      "kabbalah": {
+        "zodiac": "Leo",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 29,
+      "trigram": "ריי",
+      "letters": [
+        "ר",
+        "י",
+        "י"
+      ],
+      "letter_values": [
+        200,
+        10,
+        10
+      ],
+      "gematria": {
+        "standard": 220,
+        "ordinal": 40,
+        "reduced": 4,
+        "digital_root": 4,
+        "atbash": 83
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "רייאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 251
+      },
+      "kabbalah": {
+        "zodiac": "Leo",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 30,
+      "trigram": "אום",
+      "letters": [
+        "א",
+        "ו",
+        "ם"
+      ],
+      "letter_values": [
+        1,
+        6,
+        40
+      ],
+      "gematria": {
+        "standard": 47,
+        "ordinal": 20,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 490
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "אוםיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 62
+      },
+      "kabbalah": {
+        "zodiac": "Leo",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 31,
+      "trigram": "לכב",
+      "letters": [
+        "ל",
+        "כ",
+        "ב"
+      ],
+      "letter_values": [
+        30,
+        20,
+        2
+      ],
+      "gematria": {
+        "standard": 52,
+        "ordinal": 25,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 350
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": true,
+        "mod_7": 3,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "לכבאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 83
+      },
+      "kabbalah": {
+        "zodiac": "Virgo",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": true,
+        "row_in_grid": 4,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 32,
+      "trigram": "ושר",
+      "letters": [
+        "ו",
+        "ש",
+        "ר"
+      ],
+      "letter_values": [
+        6,
+        300,
+        200
+      ],
+      "gematria": {
+        "standard": 506,
+        "ordinal": 47,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 85
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "ושריה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 521
+      },
+      "kabbalah": {
+        "zodiac": "Virgo",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 4,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 33,
+      "trigram": "יחו",
+      "letters": [
+        "י",
+        "ח",
+        "ו"
+      ],
+      "letter_values": [
+        10,
+        8,
+        6
+      ],
+      "gematria": {
+        "standard": 24,
+        "ordinal": 24,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 180
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "יחואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 55
+      },
+      "kabbalah": {
+        "zodiac": "Virgo",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 34,
+      "trigram": "להח",
+      "letters": [
+        "ל",
+        "ה",
+        "ח"
+      ],
+      "letter_values": [
+        30,
+        5,
+        8
+      ],
+      "gematria": {
+        "standard": 43,
+        "ordinal": 25,
+        "reduced": 16,
+        "digital_root": 7,
+        "atbash": 170
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "להחיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 58
+      },
+      "kabbalah": {
+        "zodiac": "Virgo",
+        "sefirah": "Gevurah",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 35,
+      "trigram": "כוק",
+      "letters": [
+        "כ",
+        "ו",
+        "ק"
+      ],
+      "letter_values": [
+        20,
+        6,
+        100
+      ],
+      "gematria": {
+        "standard": 126,
+        "ordinal": 36,
+        "reduced": 9,
+        "digital_root": 9,
+        "atbash": 114
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 0
+      },
+      "angel": {
+        "name": "כוקאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 157
+      },
+      "kabbalah": {
+        "zodiac": "Virgo",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 36,
+      "trigram": "מנד",
+      "letters": [
+        "מ",
+        "נ",
+        "ד"
+      ],
+      "letter_values": [
+        40,
+        50,
+        4
+      ],
+      "gematria": {
+        "standard": 94,
+        "ordinal": 31,
+        "reduced": 13,
+        "digital_root": 4,
+        "atbash": 119
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "מנדיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 109
+      },
+      "kabbalah": {
+        "zodiac": "Virgo",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 37,
+      "trigram": "אני",
+      "letters": [
+        "א",
+        "נ",
+        "י"
+      ],
+      "letter_values": [
+        1,
+        50,
+        10
+      ],
+      "gematria": {
+        "standard": 61,
+        "ordinal": 25,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 449
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "אניאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 92
+      },
+      "kabbalah": {
+        "zodiac": "Libra",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 38,
+      "trigram": "חעם",
+      "letters": [
+        "ח",
+        "ע",
+        "ם"
+      ],
+      "letter_values": [
+        8,
+        70,
+        40
+      ],
+      "gematria": {
+        "standard": 118,
+        "ordinal": 37,
+        "reduced": 19,
+        "digital_root": 1,
+        "atbash": 77
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 6,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "חעםיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 133
+      },
+      "kabbalah": {
+        "zodiac": "Libra",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 39,
+      "trigram": "רהע",
+      "letters": [
+        "ר",
+        "ה",
+        "ע"
+      ],
+      "letter_values": [
+        200,
+        5,
+        70
+      ],
+      "gematria": {
+        "standard": 275,
+        "ordinal": 41,
+        "reduced": 14,
+        "digital_root": 5,
+        "atbash": 100
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 5
+      },
+      "angel": {
+        "name": "רהעאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 306
+      },
+      "kabbalah": {
+        "zodiac": "Libra",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 40,
+      "trigram": "ייז",
+      "letters": [
+        "י",
+        "י",
+        "ז"
+      ],
+      "letter_values": [
+        10,
+        10,
+        7
+      ],
+      "gematria": {
+        "standard": 27,
+        "ordinal": 27,
+        "reduced": 9,
+        "digital_root": 9,
+        "atbash": 150
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 6,
+        "mod_9": 0
+      },
+      "angel": {
+        "name": "ייזיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 42
+      },
+      "kabbalah": {
+        "zodiac": "Libra",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 5,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 41,
+      "trigram": "ההה",
+      "letters": [
+        "ה",
+        "ה",
+        "ה"
+      ],
+      "letter_values": [
+        5,
+        5,
+        5
+      ],
+      "gematria": {
+        "standard": 15,
+        "ordinal": 15,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 270
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "הההאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 46
+      },
+      "kabbalah": {
+        "zodiac": "Libra",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 42,
+      "trigram": "מיכ",
+      "letters": [
+        "מ",
+        "י",
+        "כ"
+      ],
+      "letter_values": [
+        40,
+        10,
+        20
+      ],
+      "gematria": {
+        "standard": 70,
+        "ordinal": 34,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 80
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "מיכאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 101
+      },
+      "kabbalah": {
+        "zodiac": "Libra",
+        "sefirah": "Hod/Netzaj",
+        "purpose": "Equilibrio entre dar y recibir",
+        "meditation": "Para encontrar el balance en las relaciones",
+        "quality": "Balance",
+        "element": "Aire",
+        "planet": "Mercurio",
+        "psalm": "Salmo 113:2"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 43,
+      "trigram": "וול",
+      "letters": [
+        "ו",
+        "ו",
+        "ל"
+      ],
+      "letter_values": [
+        6,
+        6,
+        30
+      ],
+      "gematria": {
+        "standard": 42,
+        "ordinal": 24,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 180
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "וולאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 73
+      },
+      "kabbalah": {
+        "zodiac": "Escorpio",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 44,
+      "trigram": "ילה",
+      "letters": [
+        "י",
+        "ל",
+        "ה"
+      ],
+      "letter_values": [
+        10,
+        30,
+        5
+      ],
+      "gematria": {
+        "standard": 45,
+        "ordinal": 27,
+        "reduced": 9,
+        "digital_root": 9,
+        "atbash": 150
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 0
+      },
+      "angel": {
+        "name": "ילהיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 60
+      },
+      "kabbalah": {
+        "zodiac": "Escorpio",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 45,
+      "trigram": "סאל",
+      "letters": [
+        "ס",
+        "א",
+        "ל"
+      ],
+      "letter_values": [
+        60,
+        1,
+        30
+      ],
+      "gematria": {
+        "standard": 91,
+        "ordinal": 28,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 428
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "סאלאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 122
+      },
+      "kabbalah": {
+        "zodiac": "Escorpio",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 46,
+      "trigram": "ערי",
+      "letters": [
+        "ע",
+        "ר",
+        "י"
+      ],
+      "letter_values": [
+        70,
+        200,
+        10
+      ],
+      "gematria": {
+        "standard": 280,
+        "ordinal": 46,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 50
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "ערייה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 295
+      },
+      "kabbalah": {
+        "zodiac": "Escorpio",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 47,
+      "trigram": "עשל",
+      "letters": [
+        "ע",
+        "ש",
+        "ל"
+      ],
+      "letter_values": [
+        70,
+        300,
+        30
+      ],
+      "gematria": {
+        "standard": 400,
+        "ordinal": 49,
+        "reduced": 13,
+        "digital_root": 4,
+        "atbash": 29
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "עשלאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 431
+      },
+      "kabbalah": {
+        "zodiac": "Escorpio",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 48,
+      "trigram": "מיה",
+      "letters": [
+        "מ",
+        "י",
+        "ה"
+      ],
+      "letter_values": [
+        40,
+        10,
+        5
+      ],
+      "gematria": {
+        "standard": 55,
+        "ordinal": 28,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 140
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 6,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "מיהיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 70
+      },
+      "kabbalah": {
+        "zodiac": "Escorpio",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 6,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 49,
+      "trigram": "והו",
+      "letters": [
+        "ו",
+        "ה",
+        "ו"
+      ],
+      "letter_values": [
+        6,
+        5,
+        6
+      ],
+      "gematria": {
+        "standard": 17,
+        "ordinal": 17,
+        "reduced": 17,
+        "digital_root": 8,
+        "atbash": 250
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 8
+      },
+      "angel": {
+        "name": "והואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 48
+      },
+      "kabbalah": {
+        "zodiac": "Sagitario",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 50,
+      "trigram": "דני",
+      "letters": [
+        "ד",
+        "נ",
+        "י"
+      ],
+      "letter_values": [
+        4,
+        50,
+        10
+      ],
+      "gematria": {
+        "standard": 64,
+        "ordinal": 28,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 149
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "דנייה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 79
+      },
+      "kabbalah": {
+        "zodiac": "Sagitario",
+        "sefirah": "Gevurah",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 51,
+      "trigram": "החש",
+      "letters": [
+        "ה",
+        "ח",
+        "ש"
+      ],
+      "letter_values": [
+        5,
+        8,
+        300
+      ],
+      "gematria": {
+        "standard": 313,
+        "ordinal": 34,
+        "reduced": 16,
+        "digital_root": 7,
+        "atbash": 152
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "החשאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 344
+      },
+      "kabbalah": {
+        "zodiac": "Sagitario",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 52,
+      "trigram": "עמם",
+      "letters": [
+        "ע",
+        "מ",
+        "ם"
+      ],
+      "letter_values": [
+        70,
+        40,
+        40
+      ],
+      "gematria": {
+        "standard": 150,
+        "ordinal": 42,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 27
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "עמםיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 165
+      },
+      "kabbalah": {
+        "zodiac": "Sagitario",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 53,
+      "trigram": "ננא",
+      "letters": [
+        "נ",
+        "נ",
+        "א"
+      ],
+      "letter_values": [
+        50,
+        50,
+        1
+      ],
+      "gematria": {
+        "standard": 101,
+        "ordinal": 29,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 418
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "ננאאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 132
+      },
+      "kabbalah": {
+        "zodiac": "Sagitario",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 54,
+      "trigram": "נית",
+      "letters": [
+        "נ",
+        "י",
+        "ת"
+      ],
+      "letter_values": [
+        50,
+        10,
+        400
+      ],
+      "gematria": {
+        "standard": 460,
+        "ordinal": 46,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 50
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "ניתיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 475
+      },
+      "kabbalah": {
+        "zodiac": "Sagitario",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 55,
+      "trigram": "מבה",
+      "letters": [
+        "מ",
+        "ב",
+        "ה"
+      ],
+      "letter_values": [
+        40,
+        2,
+        5
+      ],
+      "gematria": {
+        "standard": 47,
+        "ordinal": 20,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 400
+      },
+      "properties": {
+        "is_prime": true,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "מבהאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 78
+      },
+      "kabbalah": {
+        "zodiac": "Capricornio",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 56,
+      "trigram": "פוי",
+      "letters": [
+        "פ",
+        "ו",
+        "י"
+      ],
+      "letter_values": [
+        80,
+        6,
+        10
+      ],
+      "gematria": {
+        "standard": 96,
+        "ordinal": 33,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 126
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 5,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "פוייה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 111
+      },
+      "kabbalah": {
+        "zodiac": "Capricornio",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 7,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 57,
+      "trigram": "נמם",
+      "letters": [
+        "נ",
+        "מ",
+        "ם"
+      ],
+      "letter_values": [
+        50,
+        40,
+        40
+      ],
+      "gematria": {
+        "standard": 130,
+        "ordinal": 40,
+        "reduced": 13,
+        "digital_root": 4,
+        "atbash": 29
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": true,
+        "mod_7": 4,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "נמםאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 161
+      },
+      "kabbalah": {
+        "zodiac": "Capricornio",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": true,
+        "row_in_grid": 8,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 58,
+      "trigram": "ייל",
+      "letters": [
+        "י",
+        "י",
+        "ל"
+      ],
+      "letter_values": [
+        10,
+        10,
+        30
+      ],
+      "gematria": {
+        "standard": 50,
+        "ordinal": 32,
+        "reduced": 5,
+        "digital_root": 5,
+        "atbash": 100
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 5
+      },
+      "angel": {
+        "name": "ייליה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 65
+      },
+      "kabbalah": {
+        "zodiac": "Capricornio",
+        "sefirah": "Gevurah",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 59,
+      "trigram": "הרח",
+      "letters": [
+        "ה",
+        "ר",
+        "ח"
+      ],
+      "letter_values": [
+        5,
+        200,
+        8
+      ],
+      "gematria": {
+        "standard": 213,
+        "ordinal": 33,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 153
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "הרחאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 244
+      },
+      "kabbalah": {
+        "zodiac": "Capricornio",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 60,
+      "trigram": "מצר",
+      "letters": [
+        "מ",
+        "צ",
+        "ר"
+      ],
+      "letter_values": [
+        40,
+        90,
+        200
+      ],
+      "gematria": {
+        "standard": 330,
+        "ordinal": 51,
+        "reduced": 15,
+        "digital_root": 6,
+        "atbash": 18
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 6
+      },
+      "angel": {
+        "name": "מצריה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 345
+      },
+      "kabbalah": {
+        "zodiac": "Capricornio",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 61,
+      "trigram": "ומב",
+      "letters": [
+        "ו",
+        "מ",
+        "ב"
+      ],
+      "letter_values": [
+        6,
+        40,
+        2
+      ],
+      "gematria": {
+        "standard": 48,
+        "ordinal": 21,
+        "reduced": 12,
+        "digital_root": 3,
+        "atbash": 390
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 6,
+        "mod_9": 3
+      },
+      "angel": {
+        "name": "ומבאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 79
+      },
+      "kabbalah": {
+        "zodiac": "Acuario",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 62,
+      "trigram": "יהה",
+      "letters": [
+        "י",
+        "ה",
+        "ה"
+      ],
+      "letter_values": [
+        10,
+        5,
+        5
+      ],
+      "gematria": {
+        "standard": 20,
+        "ordinal": 20,
+        "reduced": 11,
+        "digital_root": 2,
+        "atbash": 220
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 6,
+        "mod_9": 2
+      },
+      "angel": {
+        "name": "יההיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 35
+      },
+      "kabbalah": {
+        "zodiac": "Acuario",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 63,
+      "trigram": "ענו",
+      "letters": [
+        "ע",
+        "נ",
+        "ו"
+      ],
+      "letter_values": [
+        70,
+        50,
+        6
+      ],
+      "gematria": {
+        "standard": 126,
+        "ordinal": 36,
+        "reduced": 18,
+        "digital_root": 9,
+        "atbash": 96
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": true,
+        "divisible_by_26": false,
+        "mod_7": 0,
+        "mod_9": 0
+      },
+      "angel": {
+        "name": "ענואל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 157
+      },
+      "kabbalah": {
+        "zodiac": "Acuario",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 64,
+      "trigram": "מחי",
+      "letters": [
+        "מ",
+        "ח",
+        "י"
+      ],
+      "letter_values": [
+        40,
+        8,
+        10
+      ],
+      "gematria": {
+        "standard": 58,
+        "ordinal": 31,
+        "reduced": 13,
+        "digital_root": 4,
+        "atbash": 110
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 4
+      },
+      "angel": {
+        "name": "מחייה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 73
+      },
+      "kabbalah": {
+        "zodiac": "Acuario",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 8,
+        "col_in_grid": 8
+      }
+    },
+    {
+      "number": 65,
+      "trigram": "דמב",
+      "letters": [
+        "ד",
+        "מ",
+        "ב"
+      ],
+      "letter_values": [
+        4,
+        40,
+        2
+      ],
+      "gematria": {
+        "standard": 46,
+        "ordinal": 19,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 410
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 4,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "דמבאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 77
+      },
+      "kabbalah": {
+        "zodiac": "Acuario",
+        "sefirah": "Jesed",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 1
+      }
+    },
+    {
+      "number": 66,
+      "trigram": "מנק",
+      "letters": [
+        "מ",
+        "נ",
+        "ק"
+      ],
+      "letter_values": [
+        40,
+        50,
+        100
+      ],
+      "gematria": {
+        "standard": 190,
+        "ordinal": 46,
+        "reduced": 10,
+        "digital_root": 1,
+        "atbash": 23
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 1,
+        "mod_9": 1
+      },
+      "angel": {
+        "name": "מנקיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 205
+      },
+      "kabbalah": {
+        "zodiac": "Acuario",
+        "sefirah": "Gevurah",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 2
+      }
+    },
+    {
+      "number": 67,
+      "trigram": "איע",
+      "letters": [
+        "א",
+        "י",
+        "ע"
+      ],
+      "letter_values": [
+        1,
+        10,
+        70
+      ],
+      "gematria": {
+        "standard": 81,
+        "ordinal": 27,
+        "reduced": 9,
+        "digital_root": 9,
+        "atbash": 447
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 4,
+        "mod_9": 0
+      },
+      "angel": {
+        "name": "איעאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 112
+      },
+      "kabbalah": {
+        "zodiac": "Piscis",
+        "sefirah": "Tiferet",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 3
+      }
+    },
+    {
+      "number": 68,
+      "trigram": "חבו",
+      "letters": [
+        "ח",
+        "ב",
+        "ו"
+      ],
+      "letter_values": [
+        8,
+        2,
+        6
+      ],
+      "gematria": {
+        "standard": 16,
+        "ordinal": 16,
+        "reduced": 16,
+        "digital_root": 7,
+        "atbash": 440
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "חבויה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 31
+      },
+      "kabbalah": {
+        "zodiac": "Piscis",
+        "sefirah": "Netzaj",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Tierra",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 4
+      }
+    },
+    {
+      "number": 69,
+      "trigram": "ראה",
+      "letters": [
+        "ר",
+        "א",
+        "ה"
+      ],
+      "letter_values": [
+        200,
+        1,
+        5
+      ],
+      "gematria": {
+        "standard": 206,
+        "ordinal": 26,
+        "reduced": 8,
+        "digital_root": 8,
+        "atbash": 493
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 3,
+        "mod_9": 8
+      },
+      "angel": {
+        "name": "ראהאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 237
+      },
+      "kabbalah": {
+        "zodiac": "Piscis",
+        "sefirah": "Hod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Fuego",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 5
+      }
+    },
+    {
+      "number": 70,
+      "trigram": "יבמ",
+      "letters": [
+        "י",
+        "ב",
+        "מ"
+      ],
+      "letter_values": [
+        10,
+        2,
+        40
+      ],
+      "gematria": {
+        "standard": 52,
+        "ordinal": 25,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 350
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": true,
+        "mod_7": 3,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "יבמיה",
+        "suffix": "יה",
+        "suffix_meaning": "Yah (יה)",
+        "gematria": 67
+      },
+      "kabbalah": {
+        "zodiac": "Piscis",
+        "sefirah": "Yesod",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Agua",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": true,
+        "row_in_grid": 9,
+        "col_in_grid": 6
+      }
+    },
+    {
+      "number": 71,
+      "trigram": "היי",
+      "letters": [
+        "ה",
+        "י",
+        "י"
+      ],
+      "letter_values": [
+        5,
+        10,
+        10
+      ],
+      "gematria": {
+        "standard": 25,
+        "ordinal": 25,
+        "reduced": 7,
+        "digital_root": 7,
+        "atbash": 170
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 4,
+        "mod_9": 7
+      },
+      "angel": {
+        "name": "הייאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 56
+      },
+      "kabbalah": {
+        "zodiac": "Piscis",
+        "sefirah": "Malkut",
+        "purpose": "Meditación y conexión espiritual",
+        "meditation": "Contemplar las letras para activar su energía",
+        "quality": "Transformación espiritual",
+        "element": "Aire",
+        "planet": "—",
+        "psalm": "—"
+      },
+      "connections": {
+        "saturn_resonance": true,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 7
+      }
+    },
+    {
+      "number": 72,
+      "trigram": "מום",
+      "letters": [
+        "מ",
+        "ו",
+        "ם"
+      ],
+      "letter_values": [
+        40,
+        6,
+        40
+      ],
+      "gematria": {
+        "standard": 86,
+        "ordinal": 32,
+        "reduced": 14,
+        "digital_root": 5,
+        "atbash": 100
+      },
+      "properties": {
+        "is_prime": false,
+        "divisible_by_7": false,
+        "divisible_by_26": false,
+        "mod_7": 2,
+        "mod_9": 5
+      },
+      "angel": {
+        "name": "מוםאל",
+        "suffix": "אל",
+        "suffix_meaning": "Dios (אל)",
+        "gematria": 117
+      },
+      "kabbalah": {
+        "zodiac": "Piscis",
+        "sefirah": "Malkut/Malkut",
+        "purpose": "Las fuerzas espirituales ocultas, finalización de ciclos",
+        "meditation": "Para cerrar ciclos y renacer espiritualmente",
+        "quality": "Renacimiento",
+        "element": "Tierra",
+        "planet": "Saturno",
+        "psalm": "Salmo 116:7"
+      },
+      "connections": {
+        "saturn_resonance": false,
+        "yhvh_resonance": false,
+        "row_in_grid": 9,
+        "col_in_grid": 8
+      }
+    }
+  ],
+  "grid": {
+    "rows": 9,
+    "cols": 8,
+    "explanation": "8 cols = Trascendencia, 9 rows = Sefirot, 72 = Jesed (Bondad)"
+  },
+  "instructions_for_ai": {
+    "role": "Eres un Rabino sabio y un científico de datos. Respondes preguntas sobre los 72 Nombres con rigor kabbalístico y análisis numérico.",
+    "context": "Los 72 Nombres se extraen de 3 versículos del Éxodo (14:19, 14:20, 14:21), cada uno con exactamente 72 letras. El versículo 19 se lee normal, el 20 al revés, el 21 normal. Combinando las letras en orden vertical se obtienen 72 trigramas.",
+    "response_style": "Combina la tradición del Zohar con análisis estadístico. Siempre muestra los números y sus significados."
+  }
+}

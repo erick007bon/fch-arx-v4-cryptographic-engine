@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔯 72 Nombres de Dios — IA Kabbalística</title>
+    <meta name="description" content="Explora los 72 Nombres de Dios con pronunciación, gematría e inteligencia artificial kabbalística.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #050510;
+            --bg-secondary: #0a0a20;
+            --bg-card: #0d0d2b;
+            --bg-card-hover: #131340;
+            --gold: #FFD700;
+            --gold-dim: #997a00;
+            --gold-glow: rgba(255, 215, 0, 0.15);
+            --cyan: #00E5FF;
+            --purple: #9B59B6;
+            --purple-bright: #BB86FC;
+            --blue: #4488FF;
+            --red: #FF4444;
+            --green: #00E676;
+            --orange: #FF9800;
+            --text-primary: #E8E8F0;
+            --text-secondary: #8888AA;
+            --text-hebrew: #FFD700;
+            --border: rgba(255, 215, 0, 0.12);
+            --glow-gold: 0 0 20px rgba(255, 215, 0, 0.3);
+            --glow-cyan: 0 0 20px rgba(0, 229, 255, 0.3);
+            --gradient-gold: linear-gradient(135deg, #FFD700, #FFA000);
+            --gradient-dark: linear-gradient(180deg, #050510 0%, #0a0a2a 50%, #050515 100%);
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--gradient-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ═══════════ COSMIC BG ═══════════ */
+        .cosmos { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+        .star {
+            position: absolute; border-radius: 50%; background: white;
+            animation: twinkle var(--dur) ease-in-out infinite;
+        }
+        @keyframes twinkle { 0%,100%{opacity:.2} 50%{opacity:1} }
+
+        .app { position: relative; z-index: 1; }
+
+        /* ═══════════ HEADER ═══════════ */
+        header {
+            text-align: center; padding: 50px 20px 30px;
+            background: radial-gradient(ellipse at center, rgba(255,215,0,0.05) 0%, transparent 70%);
+        }
+        header h1 {
+            font-family: 'Frank Ruhl Libre', serif; font-weight: 900;
+            font-size: clamp(1.8rem, 5vw, 3.2rem);
+            background: var(--gradient-gold);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: var(--text-secondary); font-size: .95rem; font-weight: 300; letter-spacing: 2px; }
+        .hebrew-title {
+            font-family: 'Frank Ruhl Libre', serif; font-size: clamp(1.3rem, 3vw, 2rem);
+            color: var(--text-hebrew); direction: rtl; opacity: .8; margin-top: 6px;
+        }
+
+        /* ═══════════ TABS ═══════════ */
+        .tabs { display: flex; justify-content: center; gap: 6px; padding: 0 16px 24px; flex-wrap: wrap; }
+        .tab-btn {
+            padding: 9px 20px; border: 1px solid var(--border); border-radius: 30px;
+            background: var(--bg-card); color: var(--text-secondary); cursor: pointer;
+            font-size: .85rem; font-family: 'Inter', sans-serif; transition: all .3s;
+        }
+        .tab-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+        .tab-btn.active {
+            background: rgba(255,215,0,.1); border-color: var(--gold);
+            color: var(--gold); box-shadow: var(--glow-gold);
+        }
+
+        /* ═══════════ SECTIONS ═══════════ */
+        .section { display: none; padding: 0 16px 60px; max-width: 1400px; margin: 0 auto; }
+        .section.active { display: block; }
+
+        /* ═══════════ GRID ═══════════ */
+        .names-grid { display: grid; grid-template-columns: repeat(8,1fr); gap: 6px; margin-bottom: 30px; }
+        @media(max-width:900px){.names-grid{grid-template-columns:repeat(4,1fr)}}
+        @media(max-width:500px){.names-grid{grid-template-columns:repeat(3,1fr)}}
+
+        .name-cell {
+            aspect-ratio: 1; display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); cursor: pointer; transition: all .3s;
+            position: relative; overflow: hidden;
+        }
+        .name-cell::before {
+            content:''; position:absolute; inset:0;
+            background: radial-gradient(circle at center, rgba(255,215,0,.05) 0%, transparent 70%);
+            opacity:0; transition: opacity .3s;
+        }
+        .name-cell:hover::before{opacity:1}
+        .name-cell:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:var(--glow-gold)}
+        .name-cell.saturn{border-color:rgba(0,229,255,.3)}
+        .name-cell.saturn:hover{box-shadow:var(--glow-cyan);border-color:var(--cyan)}
+        .name-cell.selected{border-color:var(--gold);background:var(--bg-card-hover);box-shadow:0 0 30px rgba(255,215,0,.2)}
+        .name-cell .num{font-size:.6rem;color:var(--text-secondary);position:absolute;top:3px;left:5px}
+        .name-cell .hebrew{font-family:'Frank Ruhl Libre',serif;font-size:clamp(1.1rem,2.3vw,1.6rem);color:var(--text-hebrew);direction:rtl}
+        .name-cell .pronun{font-size:.55rem;color:var(--cyan);margin-top:1px;text-transform:uppercase;letter-spacing:.5px}
+        .name-cell .value{font-size:.6rem;color:var(--text-secondary);margin-top:1px}
+        .name-cell .saturn-badge{position:absolute;top:3px;right:5px;font-size:.6rem}
+
+        /* ═══════════ DETAIL PANEL ═══════════ */
+        .detail-panel {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius-lg); padding: 30px; margin-top: 16px;
+            display: none; animation: slideIn .4s ease;
+        }
+        .detail-panel.visible{display:block}
+        @keyframes slideIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+        .detail-header{display:flex;align-items:center;gap:24px;margin-bottom:24px;flex-wrap:wrap}
+        .detail-trigram{
+            font-family:'Frank Ruhl Libre',serif;font-size:4.5rem;
+            color:var(--text-hebrew);direction:rtl;line-height:1;text-shadow:var(--glow-gold);
+        }
+        .detail-meta h2{font-size:1.4rem;color:var(--text-primary);margin-bottom:4px}
+        .detail-pronunciation{font-size:1.6rem;color:var(--cyan);font-weight:300;letter-spacing:2px}
+        .detail-meta .angel-name{font-family:'Frank Ruhl Libre',serif;font-size:1.2rem;color:var(--purple-bright);direction:rtl}
+
+        .detail-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+        .detail-card{background:var(--bg-secondary);border:1px solid rgba(255,255,255,.05);border-radius:var(--radius);padding:18px}
+        .detail-card h3{font-size:.72rem;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-bottom:8px}
+        .stat-row{display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.03)}
+        .stat-label{color:var(--text-secondary);font-size:.82rem}
+        .stat-value{color:var(--text-primary);font-weight:600;font-size:.9rem}
+        .stat-value.gold{color:var(--gold)}.stat-value.cyan{color:var(--cyan)}.stat-value.green{color:var(--green)}.stat-value.orange{color:var(--orange)}
+
+        /* Letter breakdown  */
+        .letter-breakdown{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:16px 0}
+        .letter-box{
+            display:flex;flex-direction:column;align-items:center;
+            background:var(--bg-secondary);border:1px solid var(--border);
+            border-radius:var(--radius);padding:14px 18px;min-width:80px;
+        }
+        .letter-box .heb{font-family:'Frank Ruhl Libre',serif;font-size:2.2rem;color:var(--text-hebrew)}
+        .letter-box .lname{font-size:.7rem;color:var(--cyan);margin-top:2px;font-weight:600}
+        .letter-box .lval{font-size:.75rem;color:var(--text-secondary)}
+        .letter-box .lsound{font-size:.75rem;color:var(--orange);margin-top:4px;font-weight:500}
+        .letter-box .lmeaning{font-size:.6rem;color:var(--text-secondary);margin-top:2px;text-align:center;max-width:90px}
+
+        /* ═══════════ PHONETICS SECTION ═══════════ */
+        .phonetics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:20px 0}
+        .phon-cell{
+            background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+            padding:12px;text-align:center;transition:all .3s;
+        }
+        .phon-cell:hover{border-color:var(--gold);transform:translateY(-2px)}
+        .phon-cell .heb{font-family:'Frank Ruhl Libre',serif;font-size:2rem;color:var(--text-hebrew)}
+        .phon-cell .name{font-size:.7rem;color:var(--cyan);font-weight:600;margin-top:2px}
+        .phon-cell .sound{font-size:.85rem;color:var(--orange);font-weight:600;margin-top:4px}
+        .phon-cell .ipa{font-size:.7rem;color:var(--text-secondary);font-style:italic}
+        .phon-cell .val{font-size:.65rem;color:var(--gold-dim);margin-top:4px}
+
+        .lesson-box{
+            background:rgba(255,215,0,.03);border-left:3px solid var(--gold);
+            padding:18px 22px;margin:18px 0;border-radius:0 var(--radius) var(--radius) 0;
+        }
+        .lesson-box h4{color:var(--gold);font-size:.78rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+        .lesson-box p{color:var(--text-secondary);line-height:1.7;font-size:.92rem}
+        .lesson-box .highlight{color:var(--text-primary);font-weight:600}
+
+        /* ═══════════ AI CHAT ═══════════ */
+        .chat-container{max-width:800px;margin:0 auto}
+        .chat-history{
+            min-height:350px;max-height:550px;overflow-y:auto;padding:18px;
+            background:var(--bg-card);border:1px solid var(--border);
+            border-radius:var(--radius-lg) var(--radius-lg) 0 0;
+        }
+        .chat-msg{margin-bottom:14px;padding:12px 16px;border-radius:var(--radius);animation:fadeIn .3s;line-height:1.7}
+        @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+        .chat-msg.user{background:rgba(68,136,255,.15);border:1px solid rgba(68,136,255,.2);margin-left:35px}
+        .chat-msg.ai{background:rgba(255,215,0,.05);border:1px solid rgba(255,215,0,.1);margin-right:35px}
+        .chat-msg .sender{font-size:.65rem;text-transform:uppercase;letter-spacing:2px;margin-bottom:4px}
+        .chat-msg.user .sender{color:var(--blue)}.chat-msg.ai .sender{color:var(--gold)}
+        .hebrew-inline{font-family:'Frank Ruhl Libre',serif;color:var(--text-hebrew);direction:rtl;display:inline;font-size:1.1em}
+        .chat-input-area{display:flex;border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-lg) var(--radius-lg);overflow:hidden}
+        .chat-input{flex:1;padding:16px 18px;background:var(--bg-secondary);border:none;color:var(--text-primary);font-size:.95rem;font-family:'Inter',sans-serif;outline:none}
+        .chat-input::placeholder{color:var(--text-secondary)}
+        .chat-send{padding:16px 24px;background:rgba(255,215,0,.1);border:none;color:var(--gold);cursor:pointer;font-size:.95rem;font-family:'Inter',sans-serif;font-weight:600;transition:background .3s}
+        .chat-send:hover{background:rgba(255,215,0,.2)}
+
+        /* ═══════════ STATS ═══════════ */
+        .stats-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
+        .stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center}
+        .stat-card .big-num{font-size:2.2rem;font-weight:700;background:var(--gradient-gold);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .stat-card .label{font-size:.75rem;color:var(--text-secondary);margin-top:3px}
+
+        /* Scrollbar */
+        ::-webkit-scrollbar{width:5px}
+        ::-webkit-scrollbar-track{background:var(--bg-primary)}
+        ::-webkit-scrollbar-thumb{background:var(--gold-dim);border-radius:3px}
+
+        footer{text-align:center;padding:35px 20px;color:var(--text-secondary);font-size:.75rem}
+    </style>
+</head>
+<body>
+<div class="cosmos" id="cosmos"></div>
+<div class="app">
+    <header>
+        <h1>Los 72 Nombres de Dios</h1>
+        <p class="subtitle">INTELIGENCIA ARTIFICIAL KABBALÍSTICA</p>
+        <p class="hebrew-title">שבעים ושתיים שמות הקדושים</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn active" data-tab="grid">Los 72 Nombres</button>
+        <button class="tab-btn" data-tab="sounds">Sonidos Primordiales</button>
+        <button class="tab-btn" data-tab="fibonacci">Fibonacci & Torah</button>
+        <button class="tab-btn" data-tab="graph">Grafo Sagrado</button>
+        <button class="tab-btn" data-tab="calculator">Calculadora</button>
+        <button class="tab-btn" data-tab="chat">IA Kabbalística</button>
+        <button class="tab-btn" data-tab="stats">Análisis</button>
+        <button class="tab-btn" data-tab="learn">Aprender</button>
+    </nav>
+
+    <!-- ═══════ GRID TAB ═══════ -->
+    <div id="grid" class="section active">
+        <div class="lesson-box">
+            <h4>Cómo leer los nombres</h4>
+            <p>Cada celda muestra: el <span class="highlight">trigrama hebreo</span> (3 letras), su <span class="highlight" style="color:var(--cyan)">pronunciación en español</span>, y su valor de gematría. Haz clic en cualquier nombre para ver su análisis completo con pronunciación detallada letra por letra.</p>
+        </div>
+        <div class="names-grid" id="namesGrid"></div>
+        <div class="detail-panel" id="detailPanel"></div>
+    </div>
+
+    <!-- ═══════ SOUNDS TAB ═══════ -->
+    <div id="sounds" class="section">
+        <div class="lesson-box">
+            <h4>Las 22 Letras: Los Sonidos Que Crearon El Universo</h4>
+            <p>Según el <span class="highlight">Sefer Yetzirah</span> (Libro de la Formación, siglo III), Dios creó el universo combinando las 22 letras del alfabeto hebreo. Cada letra es un <span class="highlight">canal de energía divina</span> con un sonido, un número, y un significado. Las 22 letras se dividen en:</p>
+            <p style="margin-top:10px">
+                • <span class="highlight" style="color:var(--cyan)">3 MADRES</span> (Alef, Mem, Shin) — Los 3 elementos primordiales: Aire, Agua, Fuego<br>
+                • <span class="highlight" style="color:var(--green)">7 DOBLES</span> (Bet, Gimel, Dalet, Kaf, Pe, Resh, Tav) — Los 7 planetas / días de la semana<br>
+                • <span class="highlight" style="color:var(--orange)">12 SIMPLES</span> (He, Vav, Zayin, Jet, Tet, Yod, Lamed, Nun, Samej, Ayin, Tsadi, Qof) — Los 12 signos del zodíaco
+            </p>
+            <p style="margin-top:10px">Los <span class="highlight">72 Nombres</span> son combinaciones de estas 22 letras. De ellas nacen TODOS los sonidos posibles del habla humana.</p>
+        </div>
+        <div id="phoneticsGrid" class="phonetics-grid"></div>
+        <div class="lesson-box" style="margin-top:30px">
+            <h4>¿Cómo nacen TODOS los sonidos de estas letras?</h4>
+            <p>Los fonéticos hebreos clasifican los sonidos por los <span class="highlight">5 órganos del habla</span> (Sefer Yetzirah 2:3):</p>
+            <p style="margin-top:10px">
+                🫁 <span class="highlight" style="color:var(--cyan)">GUTURALES</span> (garganta): א ה ח ע — Sonidos profundos: A, H, J, sonido gutural<br>
+                👅 <span class="highlight" style="color:var(--green)">PALATALES</span> (paladar): ג י כ ק — Sonidos G, Y, K, Q<br>
+                🦷 <span class="highlight" style="color:var(--orange)">LINGUALES</span> (lengua): ד ט ל נ ת — Sonidos D, T, L, N, T<br>
+                🦷 <span class="highlight" style="color:var(--purple-bright)">DENTALES</span> (dientes): ז ס ש ר צ — Sonidos Z, S, SH, R, TS<br>
+                👄 <span class="highlight" style="color:var(--red)">LABIALES</span> (labios): ב ו מ פ — Sonidos B, V, M, P/F
+            </p>
+            <p style="margin-top:14px">Estos 5 grupos cubren <span class="highlight">TODOS</span> los puntos de articulación del aparato fonador humano. Cualquier sonido que puedas hacer con tu boca se produce en uno de estos 5 puntos. El hebreo antiguo los identificó todos hace 3,000 años.</p>
+            <p style="margin-top:10px">Los 72 Nombres combinan letras de los 5 grupos, creando 72 "acordes" fonéticos que abarcan todo el espectro sonoro de la creación.</p>
+        </div>
+        <div id="articulationGroups"></div>
+    </div>
+
+    <!-- ═══════ FIBONACCI TAB ═══════ -->
+    <div id="fibonacci" class="section">
+        <div class="lesson-box">
+            <h4>Descubrimiento: Torah = Fibonacci + Dios</h4>
+            <p><span class="highlight">Fibonacci(15) = 610</span>. La gematría de Torah (<span class="hebrew-inline">תורה</span>) = <span class="highlight">611</span>.<br>
+            <span class="highlight" style="color:var(--cyan);font-size:1.1em">610 + 1(א/Alef/Dios) = 611 = Torah</span><br>
+            La Torah es literalmente <span class="highlight">Fibonacci + Dios</span>.</p>
+        </div>
+        <div class="stats-cards">
+            <div class="stat-card"><div class="big-num">993</div><div class="label">Palabras Fibonacci en la Torah</div></div>
+            <div class="stat-card"><div class="big-num" style="font-size:1.8rem">x1.63</div><div class="label">Ratio vs azar (p&lt;0.001)</div></div>
+            <div class="stat-card"><div class="big-num">1,374</div><div class="label">Palabras Estrella de David</div></div>
+            <div class="stat-card"><div class="big-num" style="font-size:1.8rem">x2.13</div><div class="label">Ratio Estrella vs azar</div></div>
+        </div>
+        <div class="lesson-box">
+            <h4>Fibonacci y los conceptos sagrados</h4>
+            <p>
+                <span class="highlight">1</span> = א (Alef: Unidad, Dios)<br>
+                <span class="highlight">2</span> = ב (Bet: Primera letra de la Torah)<br>
+                <span class="highlight">5</span> = ה (He: Ventana al cielo)<br>
+                <span class="highlight">8</span> = ח (Jet: Vida) — aparece <span class="highlight" style="color:var(--cyan)">105x</span><br>
+                <span class="highlight">13</span> = <span class="hebrew-inline">אהבה</span> (Amor) = <span class="hebrew-inline">אחד</span> (Uno) — <span class="highlight" style="color:var(--cyan)">240x -- el mas frecuente</span><br>
+                <span class="highlight">21</span> = <span class="hebrew-inline">אהיה</span> (Ehyeh / "Yo Soy" -- nombre de Dios, Exodo 3:14) — <span class="highlight" style="color:var(--cyan)">86x</span><br>
+                <span class="highlight">34</span> = Nacimiento — aparece <span class="highlight" style="color:var(--cyan)">72x (= los 72 Nombres!)</span><br>
+                <span class="highlight">55</span> = aparece <span class="highlight" style="color:var(--cyan)">197x</span><br>
+                <span class="highlight">144</span> = <span class="hebrew-inline">קדם</span> (Qedem / Oriente) — <span class="highlight" style="color:var(--cyan)">84x</span><br>
+                <span class="highlight">610</span> = A 1 de Torah (611) — <span class="highlight" style="color:var(--cyan)">33x</span>
+            </p>
+        </div>
+        <div class="lesson-box">
+            <h4>Misterio 37-73: Los Espejos de la Creacion</h4>
+            <p>
+                <span class="highlight">37</span> = <span class="hebrew-inline">הבל</span> (Hevel/Abel) = Estrella de David #3 = <span class="highlight">PRIMO</span><br>
+                <span class="highlight">73</span> = <span class="hebrew-inline">חכמה</span> (Jokhmah/Sabiduria) = Estrella de David #4 = <span class="highlight">PRIMO</span><br><br>
+                37 es 73 al reves. <span class="highlight">37 x 73 = 2,701</span> = gematria de Genesis 1:1.<br><br>
+                <span class="highlight" style="color:var(--cyan)">El primer versiculo de la Torah tiene como valor el producto de dos Estrellas de David primas-espejo.</span>
+            </p>
+        </div>
+        <div class="lesson-box">
+            <h4>Proporcion Aurea en la Torah</h4>
+            <p>
+                La palabra en el <span class="highlight">punto aureo</span> (68,484 / phi = palabra #42,325) de la Torah es:<br>
+                <span class="highlight" style="color:var(--cyan);font-size:1.2em"><span class="hebrew-inline">במספר</span> (BeMispar = "En numero")</span><br><br>
+                La Torah, al dividirse por la proporcion aurea, apunta a la palabra "En numero" — <span class="highlight">el texto se auto-referencia como estructura numerica</span>.
+            </p>
+        </div>
+        <div class="lesson-box">
+            <h4>Todas las secuencias vs azar</h4>
+            <p>TODAS las secuencias sagradas aparecen mas de lo esperado (ratio > 1.0):</p>
+            <p style="margin-top:10px">
+                <span class="highlight">Fibonacci:</span> x1.63 ⬆<br>
+                <span class="highlight">Triangulares:</span> x1.95 ⬆<br>
+                <span class="highlight">Perfectos:</span> x1.29 ⬆<br>
+                <span class="highlight">Cuadrados:</span> x1.99 ⬆<br>
+                <span class="highlight">Estrella David:</span> x2.13 ⬆<br>
+                <span class="highlight">Primos:</span> x1.62 ⬆<br>
+                <span class="highlight">Divisibles por 7:</span> x1.28 ⬆<br>
+                <span class="highlight">Divisibles por 26:</span> x2.43 ⬆ (YHVH = 26)
+            </p>
+        </div>
+    </div>
+
+    <!-- ═══════ GRAPH TAB ═══════ -->
+    <div id="graph" class="section">
+        <div class="lesson-box">
+            <h4>Red de Conexiones entre los 72 Nombres</h4>
+            <p>Cada nombre es un <span class="highlight">nodo</span>. Las <span class="highlight" style="color:var(--cyan)">líneas azules</span> son letras compartidas, las <span class="highlight" style="color:var(--gold)">doradas</span> sumas sagradas (26, 72, 86...), las <span class="highlight" style="color:var(--purple-bright)">púrpuras</span> gemelos (= gematría). <span class="highlight">Arrastra los nodos</span> para explorar.</p>
+        </div>
+        <div style="position:relative;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;background:var(--bg-card)">
+            <canvas id="graphCanvas" width="1200" height="700" style="width:100%;cursor:grab"></canvas>
+            <div id="graphTooltip" style="position:absolute;display:none;background:rgba(5,5,16,.95);border:1px solid var(--gold);border-radius:8px;padding:10px 14px;pointer-events:none;z-index:10;color:var(--text-primary);font-size:.85rem;max-width:250px"></div>
+        </div>
+        <div class="stats-cards" style="margin-top:16px">
+            <div class="stat-card"><div class="big-num">200</div><div class="label">Conexiones</div></div>
+            <div class="stat-card"><div class="big-num">136</div><div class="label">Letras compartidas</div></div>
+            <div class="stat-card"><div class="big-num">51</div><div class="label">Sumas sagradas</div></div>
+            <div class="stat-card"><div class="big-num">13</div><div class="label">Gemelos</div></div>
+        </div>
+    </div>
+
+    <!-- ═══════ CALCULATOR TAB ═══════ -->
+    <div id="calculator" class="section">
+        <div class="lesson-box">
+            <h4>Calculadora de Gematría Personal</h4>
+            <p>Escribe cualquier <span class="highlight">nombre o palabra en hebreo</span> y descubre su gematría, raíz digital, conexiones sagradas y qué nombres de los 72 resuenan con ella.</p>
+        </div>
+        <div style="max-width:700px;margin:0 auto">
+            <div style="display:flex;gap:8px;margin-bottom:20px">
+                <input type="text" id="calcInput" placeholder="Escribe en hebreo: אריק, שלום, משה..." style="flex:1;padding:16px 18px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);color:var(--text-primary);font-size:1.2rem;font-family:'Frank Ruhl Libre','Inter',sans-serif;direction:rtl;outline:none" />
+                <button onclick="calcGematria()" style="padding:16px 28px;background:rgba(255,215,0,.12);border:1px solid var(--gold);border-radius:var(--radius);color:var(--gold);cursor:pointer;font-size:1rem;font-weight:600;font-family:'Inter',sans-serif;transition:all .3s">Analizar</button>
+            </div>
+            <div class="lesson-box" style="border-left-color:var(--cyan)">
+                <h4 style="color:var(--cyan)">Palabras de ejemplo</h4>
+                <p style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">
+                    <span class="calc-preset" onclick="setCalc('אריק')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">אריק</span>
+                    <span class="calc-preset" onclick="setCalc('שלום')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">שלום</span>
+                    <span class="calc-preset" onclick="setCalc('משה')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">משה</span>
+                    <span class="calc-preset" onclick="setCalc('תורה')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">תורה</span>
+                    <span class="calc-preset" onclick="setCalc('אלהים')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">אלהים</span>
+                    <span class="calc-preset" onclick="setCalc('יהוה')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">יהוה</span>
+                    <span class="calc-preset" onclick="setCalc('חכמה')" style="cursor:pointer;padding:5px 12px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:20px;font-family:'Frank Ruhl Libre',serif;font-size:1rem;color:var(--text-hebrew);transition:all .3s">חכמה</span>
+                </p>
+            </div>
+            <div id="calcResult"></div>
+        </div>
+    </div>
+
+    <!-- ═══════ CHAT TAB ═══════ -->
+    <div id="chat" class="section">
+        <div class="chat-container">
+            <div class="lesson-box">
+                <h4>IA Kabbalística</h4>
+                <p>Motor inteligente con base de conocimiento de los 72 Nombres, la Torah completa (68,484 palabras) y la tradición del Zohar. Pregunta en español.</p>
+            </div>
+            <div class="chat-history" id="chatHistory">
+                <div class="chat-msg ai">
+                    <div class="sender">Rabino IA</div>
+                    <p>Shalom, Erick. Soy tu asistente kabbalístico. Puedes preguntarme:</p>
+                    <p>• <em>"¿Cuál es mi nombre protector?"</em></p>
+                    <p>• <em>"Explica el nombre #26"</em></p>
+                    <p>• <em>"¿Qué nombres tienen conexión con Saturno?"</em></p>
+                    <p>• <em>"¿Cómo se pronuncia el nombre #42?"</em></p>
+                    <p>• <em>"Busca nombres con raíz digital 7"</em></p>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Escribe tu pregunta aquí..." />
+                <button class="chat-send" id="chatSend" onclick="handleChat()">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════ STATS TAB ═══════ -->
+    <div id="stats" class="section">
+        <div class="stats-cards" id="statsCards"></div>
+        <div class="lesson-box">
+            <h4>Datos de la Torah</h4>
+            <p>68,484 palabras procesadas. Suma total: 21,113,757 (divisible por 7). Test Chi-cuadrado: χ²=958.7 — la distribución MOD 7 <span class="highlight">NO es aleatoria</span> (p < 0.001).</p>
+        </div>
+    </div>
+
+    <!-- ═══════ LEARN TAB ═══════ -->
+    <div id="learn" class="section">
+        <div class="lesson-box">
+            <h4>Lección 1: ¿Qué son los 72 Nombres?</h4>
+            <p>Los 72 Nombres de Dios no son "nombres" en el sentido humano. Son <span class="highlight">72 frecuencias de energía divina</span> que existían ANTES de la creación del universo.</p>
+            <p style="margin-top:10px">Se extraen de tres versículos consecutivos del <span class="highlight">Éxodo (14:19, 14:20, 14:21)</span>, cada uno con exactamente 72 letras hebreas. El versículo 19 se lee normal (derecha a izquierda), el 20 al revés (izquierda a derecha), y el 21 normal. Combinando las letras en columnas verticales se obtienen 72 trigramas de 3 letras.</p>
+        </div>
+        <div class="lesson-box">
+            <h4>Lección 2: ¿Cómo funciona la Gematría?</h4>
+            <p>Cada letra hebrea tiene un valor numérico: <span class="highlight">א=1, ב=2, ג=3... hasta ת=400</span>. La gematría de una palabra es la suma de sus letras.</p>
+            <p style="margin-top:10px">Cuando dos palabras tienen la misma gematría, comparten una <span class="highlight">conexión espiritual profunda</span>. Ejemplo: <span class="hebrew-inline">אהבה</span> (Amor) = 13 = <span class="hebrew-inline">אחד</span> (Uno). Amor = Unidad.</p>
+        </div>
+        <div class="lesson-box">
+            <h4>Lección 3: Saturno y el número 7</h4>
+            <p><span class="highlight">Shabbtai (שבתאי = Saturno = 713)</span> en Kabbalah está asociado con Binah (Entendimiento). El 7 es el número de Saturno porque <span class="highlight">Shabbat (שבת = 702)</span> es el 7° día.</p>
+            <p style="margin-top:10px">La suma total de la Torah (21,113,757) es <span class="highlight">EXACTAMENTE divisible por 7</span>. El test estadístico Chi-cuadrado confirma que esto NO es aleatorio (χ²=958.7).</p>
+        </div>
+        <div class="lesson-box">
+            <h4>Lección 4: Tu nombre — Erick Reinaldo</h4>
+            <p><span class="hebrew-inline">אריק</span> (Erick) = 311 = <span class="hebrew-inline">ריינאלדו</span> (Reinaldo) = 311. <span class="highlight">¡Ambos nombres tienen la MISMA gematría!</span></p>
+            <p style="margin-top:10px">311 = <span class="hebrew-inline">איש</span> (Ish/Hombre). Es un número <span class="highlight">PRIMO</span> — indivisible. Dentro de "Reinaldo" se encuentra <span class="hebrew-inline">אל</span> (El = Dios). <span class="highlight">Dios está codificado en tu nombre.</span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Proyecto de Gematría Torah — Erick Reinaldo Flores Zambrano</p>
+        <p style="margin-top:4px">Fuentes: Zohar, Sefer Yetzirah, Pardes Rimonim</p>
+    </footer>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════════════════
+
+const LETTER_VALUES = {
+    'א':1,'ב':2,'ג':3,'ד':4,'ה':5,'ו':6,'ז':7,'ח':8,'ט':9,
+    'י':10,'כ':20,'ך':20,'ל':30,'מ':40,'ם':40,'נ':50,'ן':50,
+    'ס':60,'ע':70,'פ':80,'ף':80,'צ':90,'ץ':90,'ק':100,'ר':200,'ש':300,'ת':400
+};
+
+// Complete Hebrew alphabet with phonetics
+const ALEFBET = [
+    {heb:'א', name:'Álef', sound:'(silencio) / A', ipa:'/ʔ/',  val:1,   meaning:'Toro, Unidad, Dios', group:'gutural', category:'madre', categoryLabel:'Madre (Aire)'},
+    {heb:'ב', name:'Bet',  sound:'B / V',          ipa:'/b,v/', val:2,   meaning:'Casa, dualidad',     group:'labial',  category:'doble', categoryLabel:'Doble'},
+    {heb:'ג', name:'Guímel', sound:'G (como gato)', ipa:'/ɡ/',  val:3,   meaning:'Camello, dar',       group:'palatal', category:'doble', categoryLabel:'Doble'},
+    {heb:'ד', name:'Dálet', sound:'D',              ipa:'/d/',   val:4,   meaning:'Puerta, pobre',      group:'lingual', category:'doble', categoryLabel:'Doble'},
+    {heb:'ה', name:'He',    sound:'H (aspirada)',    ipa:'/h/',   val:5,   meaning:'Ventana, aliento',   group:'gutural', category:'simple',categoryLabel:'Simple'},
+    {heb:'ו', name:'Vav',   sound:'V / O / U',      ipa:'/v,o,u/',val:6,  meaning:'Gancho, conexión',   group:'labial',  category:'simple',categoryLabel:'Simple'},
+    {heb:'ז', name:'Záyin', sound:'Z',              ipa:'/z/',   val:7,   meaning:'Espada, tiempo',     group:'dental',  category:'simple',categoryLabel:'Simple'},
+    {heb:'ח', name:'Jet',   sound:'J (fuerte)',     ipa:'/χ/',   val:8,   meaning:'Cerca, vida',        group:'gutural', category:'simple',categoryLabel:'Simple'},
+    {heb:'ט', name:'Tet',   sound:'T (enfática)',   ipa:'/tˤ/',  val:9,   meaning:'Serpiente, bondad',  group:'lingual', category:'simple',categoryLabel:'Simple'},
+    {heb:'י', name:'Yod',   sound:'Y (como yo)',    ipa:'/j/',   val:10,  meaning:'Mano de Dios',       group:'palatal', category:'simple',categoryLabel:'Simple'},
+    {heb:'כ', name:'Kaf',   sound:'K / J suave',    ipa:'/k,x/', val:20,  meaning:'Palma, corona',      group:'palatal', category:'doble', categoryLabel:'Doble'},
+    {heb:'ל', name:'Lámed', sound:'L',              ipa:'/l/',   val:30,  meaning:'Aguijón, enseñar',   group:'lingual', category:'simple',categoryLabel:'Simple'},
+    {heb:'מ', name:'Mem',   sound:'M',              ipa:'/m/',   val:40,  meaning:'Agua, revelado',     group:'labial',  category:'madre', categoryLabel:'Madre (Agua)'},
+    {heb:'נ', name:'Nun',   sound:'N',              ipa:'/n/',   val:50,  meaning:'Pez, fidelidad',     group:'lingual', category:'simple',categoryLabel:'Simple'},
+    {heb:'ס', name:'Sámej', sound:'S',              ipa:'/s/',   val:60,  meaning:'Apoyo, círculo',     group:'dental',  category:'simple',categoryLabel:'Simple'},
+    {heb:'ע', name:'Áyin',  sound:'(gutural) / sonido de garganta', ipa:'/ʕ/', val:70, meaning:'Ojo, ver', group:'gutural', category:'simple',categoryLabel:'Simple'},
+    {heb:'פ', name:'Pe',    sound:'P / F',          ipa:'/p,f/', val:80,  meaning:'Boca, habla',        group:'labial',  category:'doble', categoryLabel:'Doble'},
+    {heb:'צ', name:'Tsadi', sound:'TS (como pizza)',ipa:'/ts/',  val:90,  meaning:'Anzuelo, justo',     group:'dental',  category:'simple',categoryLabel:'Simple'},
+    {heb:'ק', name:'Qof',   sound:'Q / K profunda', ipa:'/q/',   val:100, meaning:'Ojo de aguja, ciclo',group:'palatal', category:'simple',categoryLabel:'Simple'},
+    {heb:'ר', name:'Resh',  sound:'R (suave)',      ipa:'/ʁ/',   val:200, meaning:'Cabeza, inicio',     group:'dental',  category:'doble', categoryLabel:'Doble'},
+    {heb:'ש', name:'Shin',  sound:'SH / S',         ipa:'/ʃ,s/', val:300, meaning:'Fuego divino, diente',group:'dental', category:'madre', categoryLabel:'Madre (Fuego)'},
+    {heb:'ת', name:'Tav',   sound:'T',              ipa:'/t/',   val:400, meaning:'Marca, verdad',      group:'lingual', category:'doble', categoryLabel:'Doble'},
+];
+
+const LETTER_MAP = {};
+ALEFBET.forEach(l => { LETTER_MAP[l.heb] = l; });
+// Finals
+LETTER_MAP['ך'] = {...LETTER_MAP['כ'], heb:'ך'};
+LETTER_MAP['ם'] = {...LETTER_MAP['מ'], heb:'ם'};
+LETTER_MAP['ן'] = {...LETTER_MAP['נ'], heb:'ן'};
+LETTER_MAP['ף'] = {...LETTER_MAP['פ'], heb:'ף'};
+LETTER_MAP['ץ'] = {...LETTER_MAP['צ'], heb:'ץ'};
+
+const NAMES_72_RAW = [
+    "והו","ילי","סיט","עלמ","מהש","ללה","אכא","כהת",
+    "הזי","אלד","לאו","ההע","יזל","מבה","הרי","הקם",
+    "לאו","כלי","לוו","פהל","נלך","ייי","מלה","חהו",
+    "נתה","האא","ירת","שאה","ריי","אום","לכב","ושר",
+    "יחו","להח","כוק","מנד","אני","חעם","רהע","ייז",
+    "ההה","מיכ","וול","ילה","סאל","ערי","עשל","מיה",
+    "והו","דני","החש","עמם","ננא","נית","מבה","פוי",
+    "נמם","ייל","הרח","מצר","ומב","יהה","ענו","מחי",
+    "דמב","מנק","איע","חבו","ראה","יבמ","היי","מום"
+];
+
+// Pronunciation guide for each trigram 
+const PRONUNCIATION = {};
+NAMES_72_RAW.forEach(tri => {
+    const letters = [...tri].filter(ch => LETTER_MAP[ch]);
+    const sounds = letters.map(l => {
+        const info = LETTER_MAP[l];
+        if (!info) return '?';
+        // Simplified pronunciation
+        const s = {
+            'א':'a','ב':'ve','ג':'gui','ד':'da','ה':'he','ו':'va','ז':'za','ח':'ja',
+            'ט':'te','י':'yi','כ':'ka','ך':'ja','ל':'la','מ':'me','ם':'m','נ':'nu',
+            'ן':'n','ס':'sa','ע':'a','פ':'pe','ף':'f','צ':'tsa','ץ':'ts','ק':'qu',
+            'ר':'re','ש':'sha','ת':'ta'
+        };
+        return s[l] || '?';
+    });
+    PRONUNCIATION[tri] = sounds.join('-').toUpperCase();
+});
+
+// Helpers
+function gematria(word) {
+    let sum = 0;
+    for (const ch of word) if (LETTER_VALUES[ch]) sum += LETTER_VALUES[ch];
+    return sum;
+}
+function digitalRoot(n) {
+    while (n >= 10) { let s = 0; for (const d of String(n)) s += parseInt(d); n = s; }
+    return n;
+}
+function isPrime(n) {
+    if (n < 2) return false;
+    for (let i = 2; i * i <= n; i++) if (n % i === 0) return false;
+    return true;
+}
+function gematriaAtbash(word) {
+    const p={'א':'ת','ב':'ש','ג':'ר','ד':'ק','ה':'צ','ו':'פ','ז':'ע','ח':'ס','ט':'נ','י':'מ','כ':'ל','ל':'כ','מ':'י','נ':'ט','ס':'ח','ע':'ז','פ':'ו','צ':'ה','ק':'ד','ר':'ג','ש':'ב','ת':'א','ך':'ל','ם':'י','ן':'ט','ף':'ו','ץ':'ה'};
+    let r=''; for(const c of word) r+=p[c]||c; return gematria(r);
+}
+
+const zodiacCycle = [
+    "Aries","Aries","Aries","Aries","Aries","Aries",
+    "Tauro","Tauro","Tauro","Tauro","Tauro","Tauro",
+    "Géminis","Géminis","Géminis","Géminis","Géminis","Géminis",
+    "Cáncer","Cáncer","Cáncer","Cáncer","Cáncer","Cáncer",
+    "Leo","Leo","Leo","Leo","Leo","Leo",
+    "Virgo","Virgo","Virgo","Virgo","Virgo","Virgo",
+    "Libra","Libra","Libra","Libra","Libra","Libra",
+    "Escorpio","Escorpio","Escorpio","Escorpio","Escorpio","Escorpio",
+    "Sagitario","Sagitario","Sagitario","Sagitario","Sagitario","Sagitario",
+    "Capricornio","Capricornio","Capricornio","Capricornio","Capricornio","Capricornio",
+    "Acuario","Acuario","Acuario","Acuario","Acuario","Acuario",
+    "Piscis","Piscis","Piscis","Piscis","Piscis","Piscis"
+];
+const sefirotCycle = ["Jésed","Gevurá","Tiféret","Nétzaj","Hod","Yesod","Maljut","Jésed"];
+
+const namesData = NAMES_72_RAW.map((tri, idx) => {
+    const num = idx + 1;
+    const val = gematria(tri);
+    const dr = digitalRoot(val);
+    const suffix = num % 2 === 1 ? "אל" : "יה";
+    return {
+        number: num, trigram: tri, gematria: val, digitalRoot: dr,
+        isPrime: isPrime(val), divBy7: val % 7 === 0, mod7: val % 7,
+        saturnResonance: val % 7 === 0 || dr === 7,
+        angel: tri + suffix, angelValue: gematria(tri + suffix),
+        pronunciation: PRONUNCIATION[tri],
+        zodiac: zodiacCycle[idx] || "—",
+        sefirah: sefirotCycle[idx % 8],
+    };
+});
+
+// ═══════════════════════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════════════════════
+
+function createStars() {
+    const c = document.getElementById('cosmos');
+    for (let i = 0; i < 180; i++) {
+        const s = document.createElement('div');
+        s.className = 'star';
+        const sz = Math.random()*2+.8;
+        s.style.cssText = `width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--dur:${2+Math.random()*4}s;animation-delay:${Math.random()*4}s`;
+        c.appendChild(s);
+    }
+}
+
+function renderGrid() {
+    const grid = document.getElementById('namesGrid');
+    grid.innerHTML = '';
+    namesData.forEach((d, idx) => {
+        const cell = document.createElement('div');
+        cell.className = 'name-cell' + (d.saturnResonance ? ' saturn' : '');
+        cell.innerHTML = `
+            <span class="num">${d.number}</span>
+            ${d.saturnResonance ? '<span class="saturn-badge">🪐</span>' : ''}
+            <span class="hebrew">${d.trigram}</span>
+            <span class="pronun">${d.pronunciation}</span>
+            <span class="value">${d.gematria}</span>
+        `;
+        cell.onclick = () => showDetail(idx);
+        grid.appendChild(cell);
+    });
+}
+
+function showDetail(idx) {
+    const d = namesData[idx];
+    const panel = document.getElementById('detailPanel');
+    document.querySelectorAll('.name-cell').forEach(c => c.classList.remove('selected'));
+    document.querySelectorAll('.name-cell')[idx].classList.add('selected');
+
+    const letters = [...d.trigram].filter(ch => LETTER_MAP[ch]);
+    let letterBoxes = '';
+    letters.forEach(l => {
+        const info = LETTER_MAP[l];
+        if (info) {
+            const groupColors = {gutural:'var(--cyan)',palatal:'var(--green)',lingual:'var(--orange)',dental:'var(--purple-bright)',labial:'var(--red)'};
+            letterBoxes += `
+                <div class="letter-box">
+                    <span class="heb">${l}</span>
+                    <span class="lname">${info.name}</span>
+                    <span class="lval">= ${info.val}</span>
+                    <span class="lsound" style="color:${groupColors[info.group]||'var(--orange)'}">${info.sound}</span>
+                    <span class="lmeaning">${info.meaning}</span>
+                </div>
+            `;
+        }
+    });
+
+    const letterBreakdown = letters.map(l => `${l}(${LETTER_VALUES[l]})`).join(' + ');
+
+    panel.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-trigram">${d.trigram}</div>
+            <div class="detail-meta">
+                <h2>Nombre #${d.number}</h2>
+                <div class="detail-pronunciation">${d.pronunciation}</div>
+                <div class="angel-name">Ángel: ${d.angel}</div>
+            </div>
+        </div>
+        <div class="letter-breakdown">${letterBoxes}</div>
+        <div class="lesson-box" style="margin:16px 0">
+            <h4>Cómo pronunciar este nombre</h4>
+            <p>Lee las letras de <span class="highlight">derecha a izquierda</span> (como se lee el hebreo). Cada letra tiene su sonido propio. Juntas forman la sílaba: <span class="highlight" style="color:var(--cyan);font-size:1.1em">${d.pronunciation}</span>.</p>
+            <p style="margin-top:8px">En la meditación kabbalística, se visualizan las tres letras mientras se pronuncia el sonido en silencio, activando la frecuencia espiritual del nombre.</p>
+        </div>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h3>Gematría</h3>
+                <div class="stat-row"><span class="stat-label">Valor estándar</span><span class="stat-value gold">${d.gematria}</span></div>
+                <div class="stat-row"><span class="stat-label">Fórmula</span><span class="stat-value">${letterBreakdown}</span></div>
+                <div class="stat-row"><span class="stat-label">Raíz digital</span><span class="stat-value">${d.digitalRoot}</span></div>
+                <div class="stat-row"><span class="stat-label">¿Primo?</span><span class="stat-value ${d.isPrime?'green':''}">${d.isPrime?'Sí':'No'}</span></div>
+                <div class="stat-row"><span class="stat-label">MOD 7</span><span class="stat-value ${d.mod7===0?'cyan':''}">${d.mod7}${d.mod7===0?' (Saturno)':''}</span></div>
+                <div class="stat-row"><span class="stat-label">Atbash</span><span class="stat-value">${gematriaAtbash(d.trigram)}</span></div>
+            </div>
+            <div class="detail-card">
+                <h3>Kabbalah</h3>
+                <div class="stat-row"><span class="stat-label">Zodíaco</span><span class="stat-value">${d.zodiac}</span></div>
+                <div class="stat-row"><span class="stat-label">Sefiráh</span><span class="stat-value">${d.sefirah}</span></div>
+                <div class="stat-row"><span class="stat-label">Ángel</span><span class="stat-value">${d.angel} (${d.angelValue})</span></div>
+                <div class="stat-row"><span class="stat-label">Fila en cuadrado</span><span class="stat-value">${Math.ceil(d.number/8)} de 9</span></div>
+                <div class="stat-row"><span class="stat-label">Columna</span><span class="stat-value">${((d.number-1)%8)+1} de 8</span></div>
+                <div class="stat-row"><span class="stat-label">Saturno</span><span class="stat-value ${d.saturnResonance?'cyan':''}">${d.saturnResonance?'🪐 Resonante':'—'}</span></div>
+            </div>
+            <div class="detail-card">
+                <h3>Conexiones Numéricas</h3>
+                <div class="stat-row"><span class="stat-label">+ YHVH (26)</span><span class="stat-value">${d.gematria+26}</span></div>
+                <div class="stat-row"><span class="stat-label">+ Erick (311)</span><span class="stat-value">${d.gematria+311}</span></div>
+                <div class="stat-row"><span class="stat-label">× 7</span><span class="stat-value">${d.gematria*7}</span></div>
+                <div class="stat-row"><span class="stat-label">÷ por 7</span><span class="stat-value">${d.divBy7?'Sí':'No'}</span></div>
+            </div>
+        </div>
+    `;
+    panel.classList.add('visible');
+    panel.scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+// ═══════════════════════════════════════════════════════════
+// PHONETICS / SOUNDS TAB
+// ═══════════════════════════════════════════════════════════
+
+function renderPhonetics() {
+    const grid = document.getElementById('phoneticsGrid');
+    grid.innerHTML = '';
+    const groupColors = {gutural:'var(--cyan)',palatal:'var(--green)',lingual:'var(--orange)',dental:'var(--purple-bright)',labial:'var(--red)'};
+    const catColors = {madre:'var(--gold)',doble:'var(--cyan)',simple:'var(--text-secondary)'};
+
+    ALEFBET.forEach(l => {
+        const cell = document.createElement('div');
+        cell.className = 'phon-cell';
+        cell.style.borderColor = groupColors[l.group] || 'var(--border)';
+        cell.innerHTML = `
+            <div class="heb">${l.heb}</div>
+            <div class="name" style="color:${groupColors[l.group]}">${l.name}</div>
+            <div class="sound">${l.sound}</div>
+            <div class="ipa">${l.ipa}</div>
+            <div class="val" style="color:${catColors[l.category]}">${l.categoryLabel} · ${l.val}</div>
+        `;
+        grid.appendChild(cell);
+    });
+
+    // Articulation groups
+    const groups = document.getElementById('articulationGroups');
+    const groupDefs = [
+        {name:'Guturales (Garganta)', key:'gutural', color:'var(--cyan)', emoji:'🫁', desc:'Sonidos producidos profundamente en la garganta. Son los más primitivos del habla humana. El Alef (א) es el sonido del silencio creativo — la pausa antes de que Dios hable.'},
+        {name:'Palatales (Paladar)', key:'palatal', color:'var(--green)', emoji:'👅', desc:'Sonidos donde la lengua toca el paladar. La G, Y, K, Q. La Yod (י) es la letra más pequeña y representa el punto infinitesimal de donde nace toda la creación.'},
+        {name:'Linguales (Lengua)', key:'lingual', color:'var(--orange)', emoji:'🦷', desc:'Sonidos producidos con la punta de la lengua. D, T, L, N. La Lamed (ל) es la letra más alta del alfabeto hebreo y significa "aprender/enseñar".'},
+        {name:'Dentales/Sibilantes (Dientes)', key:'dental', color:'var(--purple-bright)', emoji:'🦷', desc:'Sonidos que pasan entre los dientes. Z, S, SH, R, TS. La Shin (ש) tiene 3 puntas que representan las 3 columnas del Árbol de la Vida.'},
+        {name:'Labiales (Labios)', key:'labial', color:'var(--red)', emoji:'👄', desc:'Sonidos de los labios. B, V, M, P/F. La Bet (ב) es la primera letra de la Torah (Bereshit) — la creación comienza con los labios.'},
+    ];
+
+    let html = '<div style="margin-top:20px">';
+    groupDefs.forEach(gd => {
+        const lettersInGroup = ALEFBET.filter(l => l.group === gd.key);
+        html += `
+            <div class="lesson-box" style="border-left-color:${gd.color};margin:12px 0">
+                <h4 style="color:${gd.color}">${gd.emoji} ${gd.name}</h4>
+                <p style="margin-bottom:10px">${gd.desc}</p>
+                <div style="display:flex;gap:12px;flex-wrap:wrap">
+                    ${lettersInGroup.map(l => `
+                        <span style="background:var(--bg-secondary);padding:6px 14px;border-radius:8px;display:inline-flex;align-items:center;gap:8px;border:1px solid ${gd.color}30">
+                            <span style="font-family:'Frank Ruhl Libre',serif;font-size:1.4rem;color:var(--text-hebrew)">${l.heb}</span>
+                            <span style="font-size:.8rem;color:${gd.color}">${l.sound}</span>
+                        </span>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    });
+    html += '</div>';
+    groups.innerHTML = html;
+}
+
+// ═══════════════════════════════════════════════════════════
+// AI CHAT
+// ═══════════════════════════════════════════════════════════
+
+const SACRED = {
+    26:'YHVH (יהוה)',13:'Amor/Uno (אהבה/אחד)',86:'Elohim (אלהים)',
+    248:'Abraham (אברהם)',358:'Mesías (משיח)',345:'Moisés (משה)',
+    611:'Torah (תורה)',702:'Shabbat (שבת)',713:'Shabbtai (שבתאי)',
+    72:'Jésed (חסד)',216:'Gevurá (גבורה)',376:'Shalom (שלום)',
+    441:'Verdad (אמת)',311:'Erick/Hombre (אריק/איש)',
+    7:'Shabbat/Saturno',18:'Vida (חי)',45:'Adán (אדם)',
+};
+
+function answerQuery(q) {
+    q = q.toLowerCase().trim();
+
+    // By number
+    const numM = q.match(/(?:nombre|#|número|numero)\s*(\d+)/);
+    if (numM) {
+        const n = parseInt(numM[1]);
+        if (n >= 1 && n <= 72) {
+            const d = namesData[n - 1];
+            const letters = [...d.trigram].filter(ch => LETTER_MAP[ch]);
+            const letterInfo = letters.map(l => {
+                const info = LETTER_MAP[l];
+                return `<strong>${l}</strong> (${info.name}) = ${info.val} → sonido: "${info.sound}"`;
+            }).join('<br>');
+            return `<strong>Nombre #${n}: <span class="hebrew-inline">${d.trigram}</span></strong><br>` +
+                `<strong style="color:var(--cyan);font-size:1.2em">${d.pronunciation}</strong><br><br>` +
+                `📐 <strong>Desglose letra por letra:</strong><br>${letterInfo}<br><br>` +
+                `📊 Gematría: <strong>${d.gematria}</strong> (raíz: ${d.digitalRoot})<br>` +
+                `👼 Ángel: <span class="hebrew-inline">${d.angel}</span> = ${d.angelValue}<br>` +
+                `🌌 ${d.zodiac} · ${d.sefirah}<br>` +
+                `${d.saturnResonance?'🪐 <strong>Resonancia de Saturno</strong><br>':''}` +
+                `${d.isPrime?'✡ Valor PRIMO<br>':''}`;
+        }
+    }
+
+    // Pronunciation
+    if (q.includes('pronunci') || q.includes('como se dice') || q.includes('como se lee') || q.includes('como suena')) {
+        const nm = q.match(/(\d+)/);
+        if (nm) {
+            const n = parseInt(nm[1]);
+            if (n >= 1 && n <= 72) {
+                const d = namesData[n-1];
+                const letters = [...d.trigram].filter(ch => LETTER_MAP[ch]);
+                return `🔊 <strong>Pronunciación del Nombre #${n}:</strong><br><br>` +
+                    `<span class="hebrew-inline" style="font-size:2em">${d.trigram}</span><br>` +
+                    `<strong style="color:var(--cyan);font-size:1.5em">${d.pronunciation}</strong><br><br>` +
+                    letters.map(l => {
+                        const info = LETTER_MAP[l];
+                        return `${l} = ${info.name} → <strong>"${info.sound}"</strong>`;
+                    }).join('<br>') +
+                    `<br><br>📖 Lee de derecha a izquierda. En meditación, visualiza las letras y pronuncia el sonido internamente.`;
+            }
+        }
+        return `🔊 Añade el número del nombre. Ejemplo: <em>"¿Cómo se pronuncia el 26?"</em>`;
+    }
+
+    // Saturn
+    if (q.includes('saturn') || q.includes('שבת') || q.includes('shab') || q.includes('planeta')) {
+        const sn = namesData.filter(d => d.saturnResonance);
+        let r = `🪐 <strong>${sn.length} Nombres con resonancia de Saturno:</strong><br><br>`;
+        sn.forEach(d => { r += `• #${d.number} <span class="hebrew-inline">${d.trigram}</span> (${d.pronunciation}) = ${d.gematria}<br>`; });
+        r += `<br>📖 Saturno = Binah (Entendimiento). El 7° día es Shabbat.`;
+        return r;
+    }
+
+    // Personal
+    if (q.includes('erick') || q.includes('mi nombre') || q.includes('protector') || q.includes('311')) {
+        const sr = namesData.filter(d => d.digitalRoot === 5);
+        let r = `👤 <strong>Tu nombre: <span class="hebrew-inline">אריק</span> = 311 = <span class="hebrew-inline">איש</span> (Hombre)</strong><br><br>`;
+        r += `Tus nombres protectores (raíz digital 5 = Gevurá):<br>`;
+        sr.forEach(d => { r += `• #${d.number} <span class="hebrew-inline">${d.trigram}</span> (${d.pronunciation}) = ${d.gematria}<br>`; });
+        return r;
+    }
+
+    // Gematria value
+    const valM = q.match(/gematr[ií]a\s+(\d+)|valor\s+(\d+)|(\d+)/);
+    if (valM && (q.includes('gematr') || q.includes('valor') || q.includes('busca'))) {
+        const v = parseInt(valM[1] || valM[2] || valM[3]);
+        const m = namesData.filter(d => d.gematria === v);
+        let r = `🔢 <strong>Gematría ${v}:</strong><br>`;
+        if (SACRED[v]) r += `📖 ${v} = ${SACRED[v]}<br><br>`;
+        if (m.length) { m.forEach(d => { r += `• #${d.number} <span class="hebrew-inline">${d.trigram}</span> (${d.pronunciation})<br>`; }); }
+        else { const c = namesData.reduce((a,b) => Math.abs(b.gematria-v)<Math.abs(a.gematria-v)?b:a); r += `Más cercano: #${c.number} <span class="hebrew-inline">${c.trigram}</span> = ${c.gematria}`; }
+        return r;
+    }
+
+    // Primes
+    if (q.includes('primo') || q.includes('prime')) {
+        const pr = namesData.filter(d => d.isPrime);
+        let r = `✡ <strong>${pr.length} Nombres con valor primo:</strong><br><br>`;
+        pr.forEach(d => { r += `• #${d.number} <span class="hebrew-inline">${d.trigram}</span> (${d.pronunciation}) = ${d.gematria}<br>`; });
+        return r;
+    }
+
+    // Zodiac
+    const zm = q.match(/aries|tauro|g[ée]minis|c[aá]ncer|leo|virgo|libra|escorpio|sagitario|capricornio|acuario|piscis/i);
+    if (zm) {
+        const sign = zm[0].charAt(0).toUpperCase()+zm[0].slice(1).toLowerCase();
+        const m = namesData.filter(d => d.zodiac.toLowerCase()===sign.toLowerCase());
+        let r = `♈ <strong>Nombres de ${sign}:</strong><br><br>`;
+        m.forEach(d => { r += `• #${d.number} <span class="hebrew-inline">${d.trigram}</span> (${d.pronunciation}) = ${d.gematria} · ${d.sefirah}<br>`; });
+        return r;
+    }
+
+    // Fibonacci
+    if (q.includes('fibonacci') || q.includes('aurea') || q.includes('phi') || q.includes('espiral') || q.includes('secuencia')) {
+        return `🌀 <strong>Fibonacci en la Torah:</strong><br><br>` +
+            `993 palabras tienen valor Fibonacci (1.63x mas que el azar).<br><br>` +
+            `<strong>El gran descubrimiento:</strong><br>` +
+            `Fibonacci(15) = <strong>610</strong><br>` +
+            `Torah = <strong>611</strong><br>` +
+            `<strong style="color:var(--cyan)">610 + 1(א) = Torah = Fibonacci + Dios</strong><br><br>` +
+            `13 (Amor/Uno) es Fibonacci Y Estrella de David — aparece <strong>240x</strong>.<br>` +
+            `34 (Nacimiento) es Fibonacci — aparece <strong>72x</strong> (= los 72 Nombres!).<br><br>` +
+            `Ve a la pestana <strong>"Fibonacci & Torah"</strong> para ver todos los hallazgos.`;
+    }
+
+    // Sonidos/letras
+    if (q.includes('sonido') || q.includes('letra') || q.includes('alfabet') || q.includes('alefbet')) {
+        return `📖 <strong>Las 22 letras del alfabeto hebreo</strong> son los bloques de construcción de la realidad (Sefer Yetzirah):<br><br>` +
+            `🔥 <strong>3 Madres:</strong> א (Aire/Silencio), מ (Agua/M), ש (Fuego/SH)<br>` +
+            `🌟 <strong>7 Dobles:</strong> ב(B/V), ג(G), ד(D), כ(K/J), פ(P/F), ר(R), ת(T)<br>` +
+            `💫 <strong>12 Simples:</strong> ה(H), ו(V), ז(Z), ח(J), ט(T), י(Y), ל(L), נ(N), ס(S), ע(gutural), צ(TS), ק(Q)<br><br>` +
+            `Ve a la pestaña <strong>"Sonidos Primordiales"</strong> para explorar cada letra en detalle.`;
+    }
+
+    return `📖 Puedo responder sobre:<br>` +
+        `• <em>"Nombre #1"</em> a <em>"Nombre #72"</em><br>` +
+        `• <em>"¿Cómo se pronuncia el 42?"</em><br>` +
+        `• <em>"Saturno"</em> — nombres resonantes<br>` +
+        `• <em>"Mi nombre / Erick"</em><br>` +
+        `• <em>"Fibonacci"</em> — secuencias en la Torah<br>` +
+        `• <em>"Sonidos / letras"</em><br>` +
+        `• Cualquier signo zodiacal`;
+}
+
+function handleChat() {
+    const input = document.getElementById('chatInput');
+    const q = input.value.trim();
+    if (!q) return;
+    const h = document.getElementById('chatHistory');
+    h.innerHTML += `<div class="chat-msg user"><div class="sender">Tú</div><p>${q}</p></div>`;
+    input.value = '';
+    setTimeout(() => {
+        h.innerHTML += `<div class="chat-msg ai"><div class="sender">Rabino IA</div><p>${answerQuery(q)}</p></div>`;
+        h.scrollTop = h.scrollHeight;
+    }, 250);
+}
+document.getElementById('chatInput').addEventListener('keydown', e => { if (e.key === 'Enter') handleChat(); });
+
+// ═══════════════════════════════════════════════════════════
+// STATS
+// ═══════════════════════════════════════════════════════════
+
+function renderStats() {
+    const cards = document.getElementById('statsCards');
+    const total = namesData.reduce((s,d) => s+d.gematria, 0);
+    const saturn = namesData.filter(d => d.saturnResonance).length;
+    const primes = namesData.filter(d => d.isPrime).length;
+    cards.innerHTML = `
+        <div class="stat-card"><div class="big-num">72</div><div class="label">Nombres de Dios</div></div>
+        <div class="stat-card"><div class="big-num">${total.toLocaleString()}</div><div class="label">Suma total de gematría</div></div>
+        <div class="stat-card"><div class="big-num">${saturn}</div><div class="label">Resonancia Saturno 🪐</div></div>
+        <div class="stat-card"><div class="big-num">${primes}</div><div class="label">Valores primos</div></div>
+        <div class="stat-card"><div class="big-num">${(total/72).toFixed(1)}</div><div class="label">Promedio gematría</div></div>
+        <div class="stat-card"><div class="big-num">${digitalRoot(total)}</div><div class="label">Raíz digital total</div></div>
+    `;
+}
+
+// ═══════════════════════════════════════════════════════════
+// TABS + INIT
+// ═══════════════════════════════════════════════════════════
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).classList.add('active');
+    });
+});
+
+createStars();
+renderGrid();
+renderPhonetics();
+renderStats();
+
+// ═══════════════════════════════════════════════════════════
+// FORCE-DIRECTED GRAPH
+// ═══════════════════════════════════════════════════════════
+
+const GRAPH_EDGES = [
+    [0,23,'letters'],[0,47,'sacred'],[0,48,'twin'],[0,48,'letters'],
+    [1,6,'sacred'],[1,8,'sacred'],[1,12,'letters'],[1,17,'letters'],[1,43,'letters'],[1,57,'twin'],[1,57,'letters'],
+    [2,25,'sacred'],
+    [3,18,'sacred'],[3,22,'letters'],[3,42,'sacred'],[3,46,'letters'],[3,51,'letters'],
+    [4,13,'letters'],[4,22,'letters'],[4,27,'letters'],[4,47,'letters'],[4,50,'letters'],[4,54,'letters'],
+    [5,19,'letters'],[5,22,'letters'],[5,25,'sacred'],[5,33,'letters'],[5,43,'letters'],[5,45,'sacred'],
+    [6,8,'twin'],[6,49,'sacred'],[6,57,'sacred'],
+    [7,24,'letters'],
+    [8,12,'letters'],[8,14,'letters'],[8,39,'letters'],[8,43,'letters'],[8,47,'letters'],[8,49,'sacred'],[8,57,'sacred'],[8,61,'letters'],[8,70,'letters'],
+    [9,10,'sacred'],[9,10,'letters'],[9,16,'sacred'],[9,16,'letters'],[9,44,'letters'],[9,58,'sacred'],
+    [10,15,'sacred'],[10,16,'twin'],[10,16,'letters'],[10,18,'letters'],[10,29,'letters'],[10,42,'letters'],[10,44,'letters'],
+    [11,38,'letters'],
+    [12,13,'twin'],[12,17,'letters'],[12,29,'twin'],[12,39,'letters'],[12,43,'letters'],[12,47,'letters'],[12,54,'twin'],[12,57,'letters'],
+    [13,22,'letters'],[13,29,'twin'],[13,43,'letters'],[13,47,'letters'],[13,54,'twin'],[13,54,'letters'],[13,58,'letters'],[13,60,'letters'],[13,69,'letters'],
+    [14,27,'letters'],[14,38,'letters'],[14,43,'letters'],[14,45,'letters'],[14,47,'letters'],[14,50,'letters'],[14,58,'letters'],[14,61,'letters'],[14,68,'letters'],[14,69,'letters'],[14,70,'letters'],
+    [15,41,'sacred'],[15,56,'sacred'],
+    [16,15,'sacred'],[16,18,'letters'],[16,29,'letters'],[16,42,'letters'],[16,44,'letters'],
+    [17,43,'letters'],[17,41,'letters'],[17,57,'letters'],
+    [18,42,'letters'],[18,23,'letters'],[18,60,'letters'],[18,67,'letters'],
+    [19,22,'letters'],[19,33,'letters'],[19,43,'letters'],
+    [21,39,'letters'],
+    [22,47,'letters'],[22,33,'letters'],[22,43,'letters'],
+    [23,32,'letters'],[23,48,'letters'],[23,60,'letters'],[23,67,'letters'],[23,70,'sacred'],
+    [25,32,'sacred'],[25,61,'sacred'],[25,67,'sacred'],
+    [26,53,'sacred'],
+    [27,38,'letters'],[27,50,'letters'],[27,58,'letters'],[27,68,'letters'],
+    [28,45,'letters'],[28,70,'letters'],
+    [29,54,'twin'],[29,60,'letters'],[29,69,'letters'],[29,36,'sacred'],
+    [30,69,'twin'],[30,69,'letters'],[30,64,'letters'],
+    [32,48,'sacred'],[32,61,'letters'],[32,67,'letters'],
+    [33,43,'letters'],[33,47,'letters'],[33,58,'letters'],[33,63,'letters'],
+    [35,56,'letters'],[35,65,'letters'],
+    [36,49,'letters'],[36,52,'letters'],[36,66,'letters'],
+    [37,51,'letters'],
+    [38,45,'letters'],[38,58,'letters'],[38,68,'letters'],
+    [41,47,'letters'],[41,63,'letters'],[41,64,'letters'],[41,69,'letters'],
+    [42,60,'letters'],[42,18,'letters'],
+    [43,47,'letters'],[43,57,'letters'],[43,58,'letters'],[43,61,'letters'],[43,70,'letters'],
+    [44,36,'sacred'],
+    [45,58,'letters'],[45,68,'letters'],
+    [47,54,'letters'],[47,58,'letters'],[47,61,'letters'],[47,63,'letters'],
+    [49,53,'letters'],[49,64,'letters'],[49,69,'letters'],
+    [50,58,'letters'],[50,27,'letters'],
+    [52,53,'letters'],[52,56,'letters'],
+    [53,56,'letters'],
+    [54,60,'letters'],[54,69,'letters'],
+    [56,65,'letters'],[56,60,'letters'],
+    [58,68,'letters'],
+    [60,64,'letters'],[60,69,'letters'],
+    [61,70,'letters'],[61,47,'letters'],
+    [63,64,'letters'],[63,69,'letters'],
+    [64,69,'letters'],
+    [69,70,'letters'],
+];
+
+function initGraph() {
+    const canvas = document.getElementById('graphCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height;
+
+    // Create nodes in a circle
+    const nodes = namesData.map((d, i) => {
+        const angle = (i / 72) * 2 * Math.PI;
+        const r = Math.min(W, H) * 0.35;
+        return {
+            x: W/2 + r * Math.cos(angle),
+            y: H/2 + r * Math.sin(angle),
+            vx: 0, vy: 0,
+            idx: i,
+            name: d.trigram,
+            val: d.gematria,
+            conns: d.saturnResonance ? 1 : 0,
+            pr: d.pronunciation,
+        };
+    });
+
+    // Count connections per node
+    GRAPH_EDGES.forEach(e => { nodes[e[0]].conns++; nodes[e[1]].conns++; });
+
+    let dragging = null;
+    let mouseX = 0, mouseY = 0;
+    let hovered = null;
+    const tooltip = document.getElementById('graphTooltip');
+
+    function scaleXY(e) {
+        const rect = canvas.getBoundingClientRect();
+        return [(e.clientX - rect.left) * (W / rect.width), (e.clientY - rect.top) * (H / rect.height)];
+    }
+
+    canvas.addEventListener('mousedown', e => {
+        const [mx, my] = scaleXY(e);
+        for (let n of nodes) {
+            if (Math.hypot(n.x - mx, n.y - my) < 18) { dragging = n; canvas.style.cursor = 'grabbing'; break; }
+        }
+    });
+    canvas.addEventListener('mousemove', e => {
+        const [mx, my] = scaleXY(e);
+        mouseX = mx; mouseY = my;
+        if (dragging) { dragging.x = mx; dragging.y = my; dragging.vx = 0; dragging.vy = 0; }
+        hovered = null;
+        for (let n of nodes) {
+            if (Math.hypot(n.x - mx, n.y - my) < 14) { hovered = n; break; }
+        }
+        if (hovered) {
+            const rect = canvas.getBoundingClientRect();
+            const sx = (hovered.x / W) * rect.width;
+            const sy = (hovered.y / H) * rect.height;
+            tooltip.style.display = 'block';
+            tooltip.style.left = (sx + 20) + 'px';
+            tooltip.style.top = (sy - 10) + 'px';
+            const nd = namesData[hovered.idx];
+            tooltip.innerHTML = `<strong style="color:var(--gold);font-family:'Frank Ruhl Libre',serif;font-size:1.4rem">${nd.trigram}</strong><br>` +
+                `<span style="color:var(--cyan)">${nd.pronunciation}</span><br>` +
+                `#${nd.number} · Gematría: <strong>${nd.gematria}</strong><br>` +
+                `${nd.zodiac} · ${nd.sefirah}<br>` +
+                `Conexiones: <strong>${hovered.conns}</strong>` +
+                (nd.saturnResonance ? '<br>🪐 Saturno' : '');
+        } else {
+            tooltip.style.display = 'none';
+        }
+    });
+    canvas.addEventListener('mouseup', () => { dragging = null; canvas.style.cursor = 'grab'; });
+    canvas.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; dragging = null; });
+
+    function simulate() {
+        // Repulsion
+        for (let i = 0; i < nodes.length; i++) {
+            for (let j = i + 1; j < nodes.length; j++) {
+                const dx = nodes[j].x - nodes[i].x;
+                const dy = nodes[j].y - nodes[i].y;
+                const d = Math.max(Math.hypot(dx, dy), 1);
+                const f = 800 / (d * d);
+                const fx = (dx / d) * f;
+                const fy = (dy / d) * f;
+                nodes[i].vx -= fx; nodes[i].vy -= fy;
+                nodes[j].vx += fx; nodes[j].vy += fy;
+            }
+        }
+        // Springs (edges)
+        GRAPH_EDGES.forEach(e => {
+            const a = nodes[e[0]], b = nodes[e[1]];
+            const dx = b.x - a.x, dy = b.y - a.y;
+            const d = Math.max(Math.hypot(dx, dy), 1);
+            const ideal = 120;
+            const f = (d - ideal) * 0.003;
+            const fx = (dx / d) * f, fy = (dy / d) * f;
+            a.vx += fx; a.vy += fy;
+            b.vx -= fx; b.vy -= fy;
+        });
+        // Center gravity
+        nodes.forEach(n => {
+            if (n === dragging) return;
+            n.vx += (W/2 - n.x) * 0.0003;
+            n.vy += (H/2 - n.y) * 0.0003;
+            n.vx *= 0.92; n.vy *= 0.92;
+            n.x += n.vx; n.y += n.vy;
+            n.x = Math.max(20, Math.min(W - 20, n.x));
+            n.y = Math.max(20, Math.min(H - 20, n.y));
+        });
+    }
+
+    const edgeColors = { letters: 'rgba(0,229,255,0.15)', sacred: 'rgba(255,215,0,0.25)', twin: 'rgba(187,134,252,0.3)' };
+    const edgeHigh = { letters: 'rgba(0,229,255,0.6)', sacred: 'rgba(255,215,0,0.7)', twin: 'rgba(187,134,252,0.7)' };
+
+    function draw() {
+        ctx.fillStyle = '#060614';
+        ctx.fillRect(0, 0, W, H);
+
+        // Edges
+        GRAPH_EDGES.forEach(e => {
+            const a = nodes[e[0]], b = nodes[e[1]];
+            const isHover = hovered && (hovered.idx === e[0] || hovered.idx === e[1]);
+            ctx.strokeStyle = isHover ? edgeHigh[e[2]] : edgeColors[e[2]];
+            ctx.lineWidth = isHover ? 2 : 0.7;
+            ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+        });
+
+        // Nodes
+        nodes.forEach(n => {
+            const nd = namesData[n.idx];
+            const isHover = hovered && hovered.idx === n.idx;
+            const r = isHover ? 14 : Math.max(6, Math.min(13, n.conns * 1.2 + 4));
+
+            // Glow
+            if (isHover || nd.saturnResonance) {
+                const grad = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, r * 3);
+                grad.addColorStop(0, nd.saturnResonance ? 'rgba(0,229,255,0.3)' : 'rgba(255,215,0,0.3)');
+                grad.addColorStop(1, 'transparent');
+                ctx.fillStyle = grad;
+                ctx.beginPath(); ctx.arc(n.x, n.y, r * 3, 0, Math.PI * 2); ctx.fill();
+            }
+
+            // Node circle
+            ctx.fillStyle = nd.saturnResonance ? '#00E5FF' : (nd.isPrime ? '#BB86FC' : '#FFD700');
+            ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, Math.PI * 2); ctx.fill();
+            ctx.strokeStyle = isHover ? '#fff' : 'rgba(255,255,255,0.3)';
+            ctx.lineWidth = isHover ? 2 : 0.5;
+            ctx.stroke();
+
+            // Label
+            if (isHover || r > 8) {
+                ctx.fillStyle = '#fff';
+                ctx.font = `${isHover ? 14 : 10}px 'Frank Ruhl Libre', serif`;
+                ctx.textAlign = 'center';
+                ctx.fillText(n.name, n.x, n.y - r - 4);
+                if (isHover) {
+                    ctx.font = '9px Inter, sans-serif';
+                    ctx.fillStyle = '#00E5FF';
+                    ctx.fillText(n.pr, n.x, n.y + r + 12);
+                }
+            }
+        });
+    }
+
+    function loop() {
+        simulate();
+        draw();
+        requestAnimationFrame(loop);
+    }
+    loop();
+}
+
+// ═══════════════════════════════════════════════════════════
+// GEMATRIA CALCULATOR
+// ═══════════════════════════════════════════════════════════
+
+function setCalc(word) {
+    document.getElementById('calcInput').value = word;
+    calcGematria();
+}
+
+function calcGematria() {
+    const word = document.getElementById('calcInput').value.trim();
+    if (!word) return;
+    const val = gematria(word);
+    if (val === 0) {
+        document.getElementById('calcResult').innerHTML = '<div class="lesson-box" style="border-left-color:var(--red)"><h4 style="color:var(--red)">Sin valor</h4><p>Escribe en hebreo (letras hebreas). Ejemplo: אריק, שלום, משה</p></div>';
+        return;
+    }
+    const dr = digitalRoot(val);
+    const prime = isPrime(val);
+    const atb = gematriaAtbash(word);
+    const mod7 = val % 7;
+    const letters = [...word].filter(ch => LETTER_MAP[ch]);
+
+    // Find sacred matches
+    const sacredMatches = [];
+    for (const [sv, sn] of Object.entries(SACRED)) {
+        if (parseInt(sv) === val) sacredMatches.push(`<span class="highlight" style="color:var(--gold)">${val} = ${sn}</span>`);
+    }
+
+    // Find 72 Names with same value, same digital root, or sum=sacred
+    const sameVal = namesData.filter(d => d.gematria === val);
+    const sameDR = namesData.filter(d => d.digitalRoot === dr);
+    const sumSacred = [];
+    const sacredTargets = {26:'YHVH',72:'Jesed',86:'Elohim',182:'Jacob',248:'Abraham',358:'Mesías',345:'Moisés',376:'Shalom'};
+    namesData.forEach(d => {
+        const s = d.gematria + val;
+        if (sacredTargets[s]) sumSacred.push({name: d, sum: s, meaning: sacredTargets[s]});
+    });
+
+    // Fibonacci check
+    const fibs = new Set([1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597]);
+    const isFib = fibs.has(val);
+
+    // Star of David check
+    function isStar(n) { for(let k=1;;k++){const s=6*k*(k-1)+1;if(s===n)return true;if(s>n)return false;} }
+    const star = isStar(val);
+
+    // Letter breakdown
+    let letterHtml = letters.map(l => {
+        const info = LETTER_MAP[l];
+        if (!info) return '';
+        const gc = {gutural:'var(--cyan)',palatal:'var(--green)',lingual:'var(--orange)',dental:'var(--purple-bright)',labial:'var(--red)'};
+        return `<div class="letter-box">
+            <span class="heb">${l}</span>
+            <span class="lname">${info.name}</span>
+            <span class="lval">= ${info.val}</span>
+            <span class="lsound" style="color:${gc[info.group]||'var(--orange)'}">${info.sound}</span>
+        </div>`;
+    }).join('');
+
+    let html = `
+        <div style="text-align:center;margin:24px 0">
+            <div style="font-family:'Frank Ruhl Libre',serif;font-size:3.5rem;color:var(--text-hebrew);direction:rtl;text-shadow:var(--glow-gold)">${word}</div>
+            <div style="font-size:2.5rem;font-weight:700;background:var(--gradient-gold);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top:8px">${val}</div>
+        </div>
+        <div class="letter-breakdown">${letterHtml}</div>
+        <div class="detail-grid" style="margin-top:16px">
+            <div class="detail-card">
+                <h3>Gematría</h3>
+                <div class="stat-row"><span class="stat-label">Valor estándar</span><span class="stat-value gold">${val}</span></div>
+                <div class="stat-row"><span class="stat-label">Fórmula</span><span class="stat-value">${letters.map(l=>`${l}(${LETTER_VALUES[l]})`).join(' + ')}</span></div>
+                <div class="stat-row"><span class="stat-label">Raíz digital</span><span class="stat-value">${dr}</span></div>
+                <div class="stat-row"><span class="stat-label">Atbash</span><span class="stat-value">${atb}</span></div>
+                <div class="stat-row"><span class="stat-label">MOD 7</span><span class="stat-value ${mod7===0?'cyan':''}">${mod7}${mod7===0?' (Saturno!)':''}</span></div>
+            </div>
+            <div class="detail-card">
+                <h3>Propiedades</h3>
+                <div class="stat-row"><span class="stat-label">Primo</span><span class="stat-value ${prime?'green':''}">${prime?'SI - Indivisible':'No'}</span></div>
+                <div class="stat-row"><span class="stat-label">Fibonacci</span><span class="stat-value ${isFib?'gold':''}">${isFib?'SI!':'No'}</span></div>
+                <div class="stat-row"><span class="stat-label">Estrella David</span><span class="stat-value ${star?'cyan':''}">${star?'SI!':'No'}</span></div>
+                <div class="stat-row"><span class="stat-label">Divisible por 7</span><span class="stat-value ${val%7===0?'cyan':''}">${val%7===0?'SI (Saturno)':'No'}</span></div>
+                <div class="stat-row"><span class="stat-label">Divisible por 26</span><span class="stat-value ${val%26===0?'gold':''}">${val%26===0?'SI (YHVH)':'No'}</span></div>
+            </div>
+        </div>`;
+
+    // Sacred matches
+    if (sacredMatches.length) {
+        html += `<div class="lesson-box" style="margin-top:16px;border-left-color:var(--gold)"><h4>Coincidencia sagrada</h4><p>${sacredMatches.join('<br>')}</p></div>`;
+    }
+
+    // Same value in 72
+    if (sameVal.length) {
+        html += `<div class="lesson-box" style="margin-top:12px;border-left-color:var(--cyan)"><h4 style="color:var(--cyan)">Nombres de los 72 con la misma gematría (${val})</h4><p>`;
+        sameVal.forEach(d => {
+            html += `#${d.number} <span class="hebrew-inline">${d.trigram}</span> (${d.pronunciation}) · ${d.zodiac}<br>`;
+        });
+        html += '</p></div>';
+    }
+
+    // Sum = sacred number
+    if (sumSacred.length) {
+        html += `<div class="lesson-box" style="margin-top:12px;border-left-color:var(--purple-bright)"><h4 style="color:var(--purple-bright)">Sumas sagradas con los 72 Nombres</h4><p>`;
+        sumSacred.forEach(s => {
+            html += `${word} + <span class="hebrew-inline">${s.name.trigram}</span>(${s.name.gematria}) = <span class="highlight">${s.sum}</span> = ${s.meaning}<br>`;
+        });
+        html += '</p></div>';
+    }
+
+    // Same digital root
+    html += `<div class="lesson-box" style="margin-top:12px"><h4>Nombres con misma raíz digital (${dr})</h4><p>`;
+    sameDR.slice(0, 8).forEach(d => {
+        html += `#${d.number} <span class="hebrew-inline">${d.trigram}</span> = ${d.gematria} (${d.pronunciation})<br>`;
+    });
+    if (sameDR.length > 8) html += `<em>...y ${sameDR.length - 8} más</em>`;
+    html += '</p></div>';
+
+    document.getElementById('calcResult').innerHTML = html;
+}
+document.getElementById('calcInput').addEventListener('keydown', e => { if (e.key === 'Enter') calcGematria(); });
+
+// Start graph when tab is clicked
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        if (btn.dataset.tab === 'graph' && !window._graphStarted) {
+            window._graphStarted = true;
+            setTimeout(initGraph, 100);
+        }
+    });
+});
+</script>
+</body>
+</html>

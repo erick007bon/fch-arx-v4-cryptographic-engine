@@ -20,6 +20,9 @@ jobs:
       with:
         python-version: '3.12'
 
+    - name: Install Python dependencies
+      run: pip install numpy
+
     - name: Test FCH-ARX V4 Python Core
       run: |
         echo "Running Python SAC Tests..."
